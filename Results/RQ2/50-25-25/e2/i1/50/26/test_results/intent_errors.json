@@ -1,0 +1,194 @@
+[
+  {
+    "text": "Who should fix issue 1",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.4918936491012573
+    }
+  },
+  {
+    "text": "give me a list of developers with the most open issues",
+    "intent": "developers_with_most_open_issues",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.5552335381507874
+    }
+  },
+  {
+    "text": "number of commits in the branch the-branch-name",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.6550273895263672
+    }
+  },
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.31847646832466125
+    }
+  },
+  {
+    "text": "which developers should work on pull request 5",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "pr_contributors",
+      "confidence": 0.5400826334953308
+    }
+  },
+  {
+    "text": "How many developers have commited to this repo",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.2892027497291565
+    }
+  },
+  {
+    "text": "how many contributors does this repository have",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.3977561295032501
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4820156395435333
+    }
+  },
+  {
+    "text": "How many commits does George have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.9685008525848389
+    }
+  },
+  {
+    "text": "newest release",
+    "intent": "latest_release",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.4235472083091736
+    }
+  },
+  {
+    "text": "What were the recent events in the repository",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5578986406326294
+    }
+  },
+  {
+    "text": "What was the date when pull request with number 432 was created",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "pr_closing_date",
+      "confidence": 0.6858395338058472
+    }
+  },
+  {
+    "text": "number of closed issues",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "issue_closer",
+      "confidence": 0.44098371267318726
+    }
+  },
+  {
+    "text": "contributors by commits",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.8122828602790833
+    }
+  },
+  {
+    "text": "who has the most contributions in this repostiory",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_languages",
+      "confidence": 0.3583587408065796
+    }
+  },
+  {
+    "text": "who contributed the most to this repository",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.7558650374412537
+    }
+  },
+  {
+    "text": "was issue 24 closed ?",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_closer",
+      "confidence": 0.5952796936035156
+    }
+  },
+  {
+    "text": "When did issue 214 finally close",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "pr_closing_date",
+      "confidence": 0.5454218983650208
+    }
+  },
+  {
+    "text": "did this person open 78",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.6535012125968933
+    }
+  },
+  {
+    "text": "who touched 98",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.3069930374622345
+    }
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "repository_creation_date",
+      "confidence": 0.3148227334022522
+    }
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "repository_creation_date",
+      "confidence": 0.6080304980278015
+    }
+  },
+  {
+    "text": "show me the related commits to issue 84161",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.49455195665359497
+    }
+  },
+  {
+    "text": "I want to know the people who added to the repository",
+    "intent": "list_collaborators",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.4498480558395386
+    }
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.6234738230705261
+    }
+  },
+  {
+    "text": "for file map.json who was the last to touch it",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "repository_owner",
+      "confidence": 0.6730508804321289
+    }
+  },
+  {
+    "text": "which developers should work on pull request 5",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "issue_contributors",
+      "confidence": 0.4161525070667267
+    }
+  },
+  {
+    "text": "Who is the assignee on the pull request 121",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "issue_assignees",
+      "confidence": 0.5159956216812134
+    }
+  },
+  {
+    "text": "How many developers have commited to this repo",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.3337283134460449
+    }
+  },
+  {
+    "text": "What are the technologies that are used in this repository ?",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.31194445490837097
+    }
+  },
+  {
+    "text": "when was the first commit made in the master branch",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.5389662981033325
+    }
+  },
+  {
+    "text": "what was the message of the first commit in branch master",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.47573211789131165
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.6634615659713745
+    }
+  },
+  {
+    "text": "How many commits does George have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.9265171885490417
+    }
+  },
+  {
+    "text": "when was the last commit made in ths branch",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.49244996905326843
+    }
+  },
+  {
+    "text": "What were the recent events in the repository",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.7160778045654297
+    }
+  },
+  {
+    "text": "How many open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "pr_creation_date",
+      "confidence": 0.2369299829006195
+    }
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "pr_creation_date",
+      "confidence": 0.31100666522979736
+    }
+  },
+  {
+    "text": "contributors by commits",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.9471337795257568
+    }
+  },
+  {
+    "text": "who has the most contributions in this repostiory",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "repository_owner",
+      "confidence": 0.48846662044525146
+    }
+  },
+  {
+    "text": "who contributed the most to this repository",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.8963969349861145
+    }
+  },
+  {
+    "text": "was issue 24 closed ?",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_closer",
+      "confidence": 0.7418317794799805
+    }
+  },
+  {
+    "text": "did this person open 78",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.5580961108207703
+    }
+  },
+  {
+    "text": "Tell me the dominant programming language",
+    "intent": "main_programming_language",
+    "intent_prediction": {
+      "name": "list_languages",
+      "confidence": 0.7816118001937866
+    }
+  },
+  {
+    "text": "who touched 98",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "files_changed_by_pr",
+      "confidence": 0.964791476726532
+    }
+  },
+  {
+    "text": "what was the date of creation for the repository?",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5948454141616821
+    }
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5421547293663025
+    }
+  },
+  {
+    "text": "which developer started file actions.java?",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "repository_creation_date",
+      "confidence": 0.40044012665748596
+    }
+  },
+  {
+    "text": "I want to know the people who added to the repository",
+    "intent": "list_collaborators",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.5685120820999146
+    }
+  }
+]

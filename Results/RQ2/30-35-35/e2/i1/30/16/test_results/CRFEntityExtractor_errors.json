@@ -1,0 +1,181 @@
+[
+  {
+    "text": "for file map.json who was the last to touch it",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.8425833426257823,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9994633793830872,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "the inital commit for branch dev1",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9950871010924137,
+        "value": "dev1",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who commited last in the feature_2 branch",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.8437423822896584,
+        "value": "feature_2",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many prs are currently open",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who authored the 1st commit",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.8437428867926065,
+        "value": "1st",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "count open issues",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open issues",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.843742385469827,
+        "value": "10",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9979573488235474,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.9979473948478699,
+        "value": "actions.java",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

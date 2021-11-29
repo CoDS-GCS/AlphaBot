@@ -1,0 +1,42 @@
+[
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.568657398223877,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the recent open pull requests",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.8988513946533203,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

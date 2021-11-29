@@ -1,0 +1,114 @@
+[
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.43239203095436096
+    }
+  },
+  {
+    "text": "for file map.json who was the last to touch it",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "largest_files",
+      "confidence": 0.8162381649017334
+    }
+  },
+  {
+    "text": "how many contributors does this repository have",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.9653847217559814
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.884662389755249
+    }
+  },
+  {
+    "text": "How many commits does George have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.986648678779602
+    }
+  },
+  {
+    "text": "What were the recent events in the repository",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.8844094276428223
+    }
+  },
+  {
+    "text": "How many open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_collaborators",
+      "confidence": 0.25035759806632996
+    }
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.6524858474731445
+    }
+  },
+  {
+    "text": "contributors by commits",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.40857455134391785
+    }
+  },
+  {
+    "text": "latest opened issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.526667058467865
+    }
+  },
+  {
+    "text": "was issue 24 closed ?",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_closer",
+      "confidence": 0.8025429844856262
+    }
+  },
+  {
+    "text": "did this person open 78",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.5233569741249084
+    }
+  },
+  {
+    "text": "who touched 98",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "files_changed_by_pr",
+      "confidence": 0.7835143208503723
+    }
+  },
+  {
+    "text": "I want to know the people who added to the repository",
+    "intent": "list_collaborators",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.29988759756088257
+    }
+  }
+]

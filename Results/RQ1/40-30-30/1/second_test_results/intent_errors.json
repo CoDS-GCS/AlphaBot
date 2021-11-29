@@ -1,0 +1,130 @@
+[
+  {
+    "text": "who has the most open issues",
+    "intent": "developers_with_most_open_issues",
+    "intent_prediction": {
+      "name": "most_recent_issues",
+      "confidence": 0.9237657189369202
+    }
+  },
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.4522879719734192
+    }
+  },
+  {
+    "text": "What are the programming languages used in the repo",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.9644560217857361
+    }
+  },
+  {
+    "text": "How many commits are in the development branch",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.3169688880443573
+    }
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.5412300229072571
+    }
+  },
+  {
+    "text": "How many developers have commited to this repo",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.6974254846572876
+    }
+  },
+  {
+    "text": "first commit in branch X",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.5158790946006775
+    }
+  },
+  {
+    "text": "who has the first commit in branch xxyx",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.7095044255256653
+    }
+  },
+  {
+    "text": "How many contributions does Makram have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.4870191812515259
+    }
+  },
+  {
+    "text": "How many commits are done by developer X?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.4895944595336914
+    }
+  },
+  {
+    "text": "who made the last commit in master",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.6095866560935974
+    }
+  },
+  {
+    "text": "longest open issue",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.4125671088695526
+    }
+  },
+  {
+    "text": "repository activity in the last day ?",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "contributions_by_developer",
+      "confidence": 0.7030037045478821
+    }
+  },
+  {
+    "text": "list the recent open pull requests",
+    "intent": "most_recent_prs",
+    "intent_prediction": {
+      "name": "number_of_prs",
+      "confidence": 0.5280070304870605
+    }
+  },
+  {
+    "text": "show me who helped on issue 1235",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.891896665096283
+    }
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.35468143224716187
+    }
+  }
+]

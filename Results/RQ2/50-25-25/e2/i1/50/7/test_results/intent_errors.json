@@ -1,0 +1,242 @@
+[
+  {
+    "text": "Who should fix issue 1",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.49991732835769653
+    }
+  },
+  {
+    "text": "Who is assigned to issue 64",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.4837215840816498
+    }
+  },
+  {
+    "text": "give me a list of developers with the most open issues",
+    "intent": "developers_with_most_open_issues",
+    "intent_prediction": {
+      "name": "most_recent_issues",
+      "confidence": 0.5045526027679443
+    }
+  },
+  {
+    "text": "number of commits in the branch the-branch-name",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.3334059715270996
+    }
+  },
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.4498310089111328
+    }
+  },
+  {
+    "text": "for file map.json who was the last to touch it",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.3793674409389496
+    }
+  },
+  {
+    "text": "which developers should work on pull request 5",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "issue_contributors",
+      "confidence": 0.41525503993034363
+    }
+  },
+  {
+    "text": "Who is the assignee on the pull request 121",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.22713331878185272
+    }
+  },
+  {
+    "text": "How many developers have commited to this repo",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.508114218711853
+    }
+  },
+  {
+    "text": "how many contributors does this repository have",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4358675479888916
+    }
+  },
+  {
+    "text": "top languages",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.42327073216438293
+    }
+  },
+  {
+    "text": "What are the technologies that are used in this repository ?",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "list_branches",
+      "confidence": 0.5437521934509277
+    }
+  },
+  {
+    "text": "when was the first commit made in the master branch",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.28006401658058167
+    }
+  },
+  {
+    "text": "what was the message of the first commit in branch master",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.2634940445423126
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_collaborators",
+      "confidence": 0.5603138208389282
+    }
+  },
+  {
+    "text": "How many commits does George have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.9725476503372192
+    }
+  },
+  {
+    "text": "What are the commits for pr 6744",
+    "intent": "commits_in_pr",
+    "intent_prediction": {
+      "name": "issue_related_commits",
+      "confidence": 0.3039152920246124
+    }
+  },
+  {
+    "text": "what are the commits linked to pr 6744",
+    "intent": "commits_in_pr",
+    "intent_prediction": {
+      "name": "issue_related_commits",
+      "confidence": 0.767583966255188
+    }
+  },
+  {
+    "text": "tell me what the last pushed commit is",
+    "intent": "latest_commit",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.6296356320381165
+    }
+  },
+  {
+    "text": "what were the main events from the last day",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5896210074424744
+    }
+  },
+  {
+    "text": "What were the recent events in the repository",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5065743327140808
+    }
+  },
+  {
+    "text": "who authored the 1st commit",
+    "intent": "intial_commit",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.17729589343070984
+    }
+  },
+  {
+    "text": "When was issue 1109 opened",
+    "intent": "issue_creation_date",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.5336544513702393
+    }
+  },
+  {
+    "text": "How many open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.47289949655532837
+    }
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "list_branches",
+      "confidence": 0.4789234399795532
+    }
+  },
+  {
+    "text": "list the recent open pull requests",
+    "intent": "most_recent_prs",
+    "intent_prediction": {
+      "name": "number_of_prs",
+      "confidence": 0.5993107557296753
+    }
+  },
+  {
+    "text": "contributors by commits",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.28399577736854553
+    }
+  },
+  {
+    "text": "latest opened issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.33468103408813477
+    }
+  },
+  {
+    "text": "did this person open 78",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.40241098403930664
+    }
+  },
+  {
+    "text": "who touched 98",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.6743548512458801
+    }
+  }
+]

@@ -1,0 +1,921 @@
+[
+  {
+    "text": "Who is assigned to issue 64",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "value": "64",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.999886155128479,
+        "value": "64",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "assignee of issue 24",
+    "entities": [
+      {
+        "start": 18,
+        "end": 20,
+        "value": "24",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 18,
+        "end": 20,
+        "confidence_entity": 0.9998728036880493,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9886946364586157,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.999202311038971,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Who is the assignee on the pull request 121",
+    "entities": [
+      {
+        "start": 40,
+        "end": 43,
+        "value": "121",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 40,
+        "end": 43,
+        "confidence_entity": 0.9998575448989868,
+        "value": "121",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what are the commits linked to pr 6744",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9998748302459717,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What was the date of creation issue 4",
+    "entities": [
+      {
+        "start": 36,
+        "end": 37,
+        "value": "4",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.9998739957809448,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the creation date for issue 3",
+    "entities": [
+      {
+        "start": 36,
+        "end": 37,
+        "value": "3",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.9998770952224731,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9986104965209961,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many bugs are currently open",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9976982474327087,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open issues",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "when was pr 24 created",
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "value": "24",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.9998612403869629,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "At what time was the pull request 2315 opened",
+    "entities": [
+      {
+        "start": 34,
+        "end": 38,
+        "value": "2315",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9998242259025574,
+        "value": "2315",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a list of files that were changed by pull request 564",
+    "entities": [
+      {
+        "start": 58,
+        "end": 61,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 58,
+        "end": 61,
+        "confidence_entity": 0.9998511075973511,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list me the files affected by pr number 4",
+    "entities": [
+      {
+        "start": 40,
+        "end": 41,
+        "value": "4",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 40,
+        "end": 41,
+        "confidence_entity": 0.9998291730880737,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the closing date for issue 3",
+    "entities": [
+      {
+        "start": 35,
+        "end": 36,
+        "value": "3",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 36,
+        "confidence_entity": 0.9998782873153687,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What was the date of closing issue 4",
+    "entities": [
+      {
+        "start": 35,
+        "end": 36,
+        "value": "4",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 36,
+        "confidence_entity": 0.999875545501709,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we close issue 4783",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "4783",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9998890161514282,
+        "value": "4783",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me names of all the commenters on pr 6681",
+    "entities": [
+      {
+        "start": 42,
+        "end": 46,
+        "value": "6681",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 42,
+        "end": 46,
+        "confidence_entity": 0.9998610019683838,
+        "value": "6681",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who are the contributors to pr 964",
+    "entities": [
+      {
+        "start": 31,
+        "end": 34,
+        "value": "964",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 31,
+        "end": 34,
+        "confidence_entity": 0.9998844861984253,
+        "value": "964",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "At what time was pull request 2315 closed",
+    "entities": [
+      {
+        "start": 30,
+        "end": 34,
+        "value": "2315",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9998297691345215,
+        "value": "2315",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we merge pr 3907",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "3907",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9998916387557983,
+        "value": "3907",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "closing date pull request 860",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "860",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9998960494995117,
+        "value": "860",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who opened issue 6744",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9998751878738403,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created issue 9521",
+    "entities": [
+      {
+        "start": 18,
+        "end": 22,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9998674392700195,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "did this person open 78",
+    "entities": [
+      {
+        "start": 21,
+        "end": 23,
+        "value": "78",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 21,
+        "end": 23,
+        "confidence_entity": 0.9993320107460022,
+        "value": "78",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me the user that opened pr 888",
+    "entities": [
+      {
+        "start": 32,
+        "end": 35,
+        "value": "888",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 32,
+        "end": 35,
+        "confidence_entity": 0.9998732805252075,
+        "value": "888",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created pull request 9521",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.9998952150344849,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who opened pr 9521",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9998884201049805,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me who closed pull request 1235",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "1235",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9998779296875,
+        "value": "1235",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "merger of pr 9521",
+    "entities": [
+      {
+        "start": 13,
+        "end": 17,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9998886585235596,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a the developer name who closed pull request 564",
+    "entities": [
+      {
+        "start": 53,
+        "end": 56,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 53,
+        "end": 56,
+        "confidence_entity": 0.9998552799224854,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is responsible for closing issue 44",
+    "entities": [
+      {
+        "start": 37,
+        "end": 39,
+        "value": "44",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 37,
+        "end": 39,
+        "confidence_entity": 0.9998855590820312,
+        "value": "44",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed issue 6744",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9998818635940552,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed issue 9521",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9998818635940552,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me issue 84161 contributors",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "84161",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9998574256896973,
+        "value": "84161",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who are the contributors to issue 964",
+    "entities": [
+      {
+        "start": 34,
+        "end": 37,
+        "value": "964",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.9998846054077148,
+        "value": "964",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "issue 774 commenters",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "774",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9998183846473694,
+        "value": "774",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who worked on 33",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "value": "33",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 14,
+        "end": 16,
+        "confidence_entity": 0.997847318649292,
+        "value": "33",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me the developer name who created file gitignore",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "gitignore",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me a the commits linked to issue 564",
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.9998663663864136,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list commits that mention issue 84161",
+    "entities": [
+      {
+        "start": 32,
+        "end": 37,
+        "value": "84161",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9998860359191895,
+        "value": "84161",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what commits were mentioned issue 74?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 36,
+        "value": "74",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 34,
+        "end": 36,
+        "confidence_entity": 0.999884843826294,
+        "value": "74",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what commits are related to 3234?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "3234",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9990053772926331,
+        "value": "3234",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me commits related to this issue 3234?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 42,
+        "value": "3234",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.999876856803894,
+        "value": "3234",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

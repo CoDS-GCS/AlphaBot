@@ -1,0 +1,324 @@
+[
+  {
+    "text": "last developer to touch server.rb",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.7381926810704714,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me the last person to change actions.java",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.7381907176259793,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who last changed main.py",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "main.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.738295572159332,
+        "value": "main.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What happened in the last 24 hours",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.8488709566786342,
+        "value": "24",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9993614554405212,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the number of closed pull requests",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please provide a report about closed pull requests in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open prs",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open pull requests",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open issues",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please provide a report about closed issues in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many bugs are currently open",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed issues",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me who created the file bridge.py",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "bridge.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.7381907183009372,
+        "value": "bridge.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who was the creator of this file server.rb?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.7381907176259793,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.7381907176131098,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "developer who created constant.txt",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "constant.txt",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.738295572159332,
+        "value": "constant.txt",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer started file actions.java?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 41,
+        "confidence_entity": 0.7381926810704714,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

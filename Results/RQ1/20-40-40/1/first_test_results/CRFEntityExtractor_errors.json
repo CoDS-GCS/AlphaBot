@@ -1,0 +1,132 @@
+[
+  {
+    "text": "What happened in the last 24 hours",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.7895435726754131,
+        "value": "24",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9993221759796143,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please provide a report about closed pull requests in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open prs",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open pull requests",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please provide a report about closed issues in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open issues",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who created file readme.md in the repository?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tell me the developer name who created file gitignore",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "gitignore",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

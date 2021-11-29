@@ -1,0 +1,72 @@
+[
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed pull requests",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.8603470264511163,
+        "value": "10",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.999875545501709,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me the developer name who created file gitignore",
+    "entities": [
+      {
+        "start": 44,
+        "end": 53,
+        "value": "gitignore",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

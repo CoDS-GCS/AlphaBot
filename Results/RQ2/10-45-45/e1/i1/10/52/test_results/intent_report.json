@@ -1,0 +1,461 @@
+{
+  "main_programming_language": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {}
+  },
+  "repository_owner": {
+    "precision": 1.0,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4444444444444445,
+    "support": 7,
+    "confused_with": {
+      "main_programming_language": 1,
+      "pr_contributors": 1
+    }
+  },
+  "file_creator": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 9,
+    "confused_with": {}
+  },
+  "number_of_downloads": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1-score": 0.9375,
+    "support": 15,
+    "confused_with": {}
+  },
+  "latest_commit": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "longest_open_pr": 1,
+      "latest_commit_in_branch": 1
+    }
+  },
+  "longest_open_issue": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "list_collaborators": {
+    "precision": 0.5217391304347826,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.6666666666666667,
+    "support": 13,
+    "confused_with": {
+      "number_of_watchers": 1
+    }
+  },
+  "issue_related_commits": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "developers_with_most_open_issues": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "number_of_downloads": 1
+    }
+  },
+  "repository_creation_date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "files_changed_by_pr": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {}
+  },
+  "issue_creator": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.75,
+    "support": 7,
+    "confused_with": {
+      "files_changed_by_pr": 1
+    }
+  },
+  "contributions_by_developer": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "latest_release": 2,
+      "last_developer_to_touch_a_file": 1
+    }
+  },
+  "issue_closer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "issue_closing_date": 7
+    }
+  },
+  "number_of_watchers": {
+    "precision": 0.3888888888888889,
+    "recall": 1.0,
+    "f1-score": 0.56,
+    "support": 7,
+    "confused_with": {}
+  },
+  "issue_contributors": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 8,
+    "confused_with": {
+      "pr_contributors": 2,
+      "issue_closing_date": 1
+    }
+  },
+  "number_of_subscribers": {
+    "precision": 0.6842105263157895,
+    "recall": 1.0,
+    "f1-score": 0.8125000000000001,
+    "support": 13,
+    "confused_with": {}
+  },
+  "repository_license": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "number_of_commits": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13,
+    "confused_with": {
+      "list_collaborators": 8,
+      "latest_release": 3,
+      "number_of_stars": 1
+    }
+  },
+  "list_branches": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "latest_release": {
+    "precision": 0.4444444444444444,
+    "recall": 1.0,
+    "f1-score": 0.6153846153846153,
+    "support": 4,
+    "confused_with": {}
+  },
+  "list_releases": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "most_recent_issues": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "number_of_issues": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "number_of_watchers": 3,
+      "activity_report": 2,
+      "files_changed_by_pr": 1
+    }
+  },
+  "list_languages": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "main_programming_language": 4
+    }
+  },
+  "number_of_collaborators": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 3,
+    "confused_with": {
+      "number_of_subscribers": 2
+    }
+  },
+  "issue_assignees": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "pr_assignees": 2,
+      "issue_closing_date": 1
+    }
+  },
+  "default_branch": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "top_contributors": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "list_collaborators": 2,
+      "number_of_collaborators": 1
+    }
+  },
+  "number_of_commits_in_branch": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "commits_in_pr": 1,
+      "default_branch": 1,
+      "list_branches": 1
+    }
+  },
+  "pr_contributors": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 6,
+    "confused_with": {}
+  },
+  "issue_closing_date": {
+    "precision": 0.2727272727272727,
+    "recall": 1.0,
+    "f1-score": 0.42857142857142855,
+    "support": 6,
+    "confused_with": {}
+  },
+  "largest_files": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "longest_open_pr": 1
+    }
+  },
+  "pr_closer": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "pr_creator": 3,
+      "number_of_watchers": 2,
+      "pr_assignees": 1
+    }
+  },
+  "number_of_stars": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "pr_creator": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.75,
+    "support": 7,
+    "confused_with": {
+      "issue_creator": 1
+    }
+  },
+  "number_of_prs": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "most_recent_prs": 2,
+      "number_of_watchers": 2
+    }
+  },
+  "number_of_branches": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 12,
+    "confused_with": {
+      "list_branches": 1
+    }
+  },
+  "commits_in_pr": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 3,
+    "confused_with": {
+      "issue_related_commits": 2
+    }
+  },
+  "activity_report": {
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1-score": 0.6666666666666665,
+    "support": 4,
+    "confused_with": {
+      "number_of_subscribers": 1
+    }
+  },
+  "repository_topics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "last_developer_to_touch_a_file": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 3,
+    "confused_with": {
+      "file_creator": 2
+    }
+  },
+  "issue_creation_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "files_changed_by_pr": 2,
+      "issue_creator": 2,
+      "issue_closing_date": 1
+    }
+  },
+  "longest_open_pr": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 4,
+    "confused_with": {
+      "longest_open_issue": 2
+    }
+  },
+  "pr_creation_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "number_of_watchers": 3,
+      "main_programming_language": 1,
+      "files_changed_by_pr": 1
+    }
+  },
+  "intial_commit": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "intial_commit_in_branch": 4,
+      "file_creator": 1
+    }
+  },
+  "latest_commit_in_branch": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "intial_commit_in_branch": 2
+    }
+  },
+  "pr_assignees": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 3,
+    "confused_with": {}
+  },
+  "intial_commit_in_branch": {
+    "precision": 0.14285714285714285,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.2,
+    "support": 3,
+    "confused_with": {
+      "latest_commit_in_branch": 2
+    }
+  },
+  "number_of_forks": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9600000000000001,
+    "support": 13,
+    "confused_with": {
+      "number_of_subscribers": 1
+    }
+  },
+  "pr_closing_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "issue_closing_date": 6
+    }
+  },
+  "most_recent_prs": {
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "f1-score": 0.8333333333333333,
+    "support": 5,
+    "confused_with": {}
+  },
+  "accuracy": 0.6923076923076923,
+  "macro avg": {
+    "precision": 0.5863613802964658,
+    "recall": 0.6162721893491123,
+    "f1-score": 0.5613593226760681,
+    "support": 338
+  },
+  "weighted avg": {
+    "precision": 0.6347991080765188,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.6288965488029786,
+    "support": 338
+  }
+}

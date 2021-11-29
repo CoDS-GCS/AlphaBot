@@ -1,0 +1,139 @@
+[
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.980396660204794,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.999061644077301,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the longest open pull request",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.998362123966217,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open pr",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9965687990188599,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9006802439689636,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many prs are currently open",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "list the recent open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9987126588821411,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9971001744270325,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who worked on 33",
+    "entities": [
+      {
+        "start": 14,
+        "end": 16,
+        "value": "33",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9803966602047893,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

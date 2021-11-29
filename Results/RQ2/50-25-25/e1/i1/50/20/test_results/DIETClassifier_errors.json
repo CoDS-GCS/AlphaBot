@@ -1,0 +1,66 @@
+[
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.5955513715744019,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many open prs",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "list the recent open pull requests",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.5777755975723267,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

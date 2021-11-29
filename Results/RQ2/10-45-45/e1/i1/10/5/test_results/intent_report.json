@@ -1,0 +1,525 @@
+{
+  "pr_assignees": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "repository_license": 1,
+      "repository_creation_date": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "latest_release": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "repository_creation_date": 1,
+      "number_of_branches": 1
+    }
+  },
+  "repository_license": {
+    "precision": 0.4166666666666667,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.5263157894736842,
+    "support": 7,
+    "confused_with": {
+      "repository_creation_date": 1,
+      "number_of_branches": 1
+    }
+  },
+  "top_contributors": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "repository_topics": 3,
+      "number_of_commits": 2,
+      "contributions_by_developer": 1
+    }
+  },
+  "list_collaborators": {
+    "precision": 0.7272727272727273,
+    "recall": 0.6153846153846154,
+    "f1-score": 0.6666666666666667,
+    "support": 13,
+    "confused_with": {
+      "most_recent_issues": 2,
+      "number_of_commits": 1
+    }
+  },
+  "issue_closing_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "issue_related_commits": 6
+    }
+  },
+  "number_of_branches": {
+    "precision": 0.4166666666666667,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.5555555555555556,
+    "support": 12,
+    "confused_with": {
+      "most_recent_issues": 1,
+      "number_of_collaborators": 1
+    }
+  },
+  "longest_open_issue": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 5,
+    "confused_with": {
+      "issue_related_commits": 3,
+      "last_developer_to_touch_a_file": 1
+    }
+  },
+  "list_languages": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "contributions_by_developer": 1,
+      "most_recent_issues": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "pr_contributors": {
+    "precision": 1.0,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2857142857142857,
+    "support": 6,
+    "confused_with": {
+      "issue_related_commits": 3,
+      "issue_contributors": 1
+    }
+  },
+  "commits_in_pr": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "issue_related_commits": 3
+    }
+  },
+  "number_of_issues": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "number_of_stars": 3,
+      "activity_report": 2,
+      "most_recent_issues": 1
+    }
+  },
+  "issue_assignees": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "issue_related_commits": 3
+    }
+  },
+  "number_of_collaborators": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "repository_topics": 1,
+      "most_recent_issues": 1,
+      "number_of_commits": 1
+    }
+  },
+  "default_branch": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "list_releases": 2,
+      "number_of_branches": 2,
+      "issue_related_commits": 2
+    }
+  },
+  "issue_creation_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "issue_related_commits": 5
+    }
+  },
+  "issue_contributors": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "issue_related_commits": 8
+    }
+  },
+  "activity_report": {
+    "precision": 0.36363636363636365,
+    "recall": 1.0,
+    "f1-score": 0.5333333333333333,
+    "support": 4,
+    "confused_with": {}
+  },
+  "number_of_downloads": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "pr_creator": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "repository_license": 2,
+      "issue_closer": 1,
+      "number_of_branches": 1
+    }
+  },
+  "latest_commit_in_branch": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "activity_report": 2,
+      "intial_commit_in_branch": 1
+    }
+  },
+  "number_of_commits": {
+    "precision": 0.36363636363636365,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.5217391304347827,
+    "support": 13,
+    "confused_with": {
+      "list_collaborators": 1
+    }
+  },
+  "longest_open_pr": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "longest_open_issue": 1,
+      "repository_creation_date": 1
+    }
+  },
+  "repository_owner": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "number_of_commits": 5,
+      "number_of_collaborators": 1,
+      "list_releases": 1
+    }
+  },
+  "list_branches": {
+    "precision": 0.6,
+    "recall": 0.3,
+    "f1-score": 0.4,
+    "support": 10,
+    "confused_with": {
+      "number_of_branches": 5,
+      "number_of_stars": 1
+    }
+  },
+  "pr_closer": {
+    "precision": 0.16666666666666666,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.16666666666666666,
+    "support": 6,
+    "confused_with": {
+      "most_recent_prs": 3,
+      "activity_report": 1
+    }
+  },
+  "list_releases": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {}
+  },
+  "developers_with_most_open_issues": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "last_developer_to_touch_a_file": 1,
+      "issue_related_commits": 1
+    }
+  },
+  "repository_creation_date": {
+    "precision": 0.5,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.6086956521739131,
+    "support": 9,
+    "confused_with": {
+      "number_of_stars": 2
+    }
+  },
+  "intial_commit": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "number_of_commits": 4,
+      "repository_creation_date": 1
+    }
+  },
+  "most_recent_prs": {
+    "precision": 0.16666666666666666,
+    "recall": 0.2,
+    "f1-score": 0.1818181818181818,
+    "support": 5,
+    "confused_with": {
+      "latest_release": 2,
+      "number_of_branches": 1
+    }
+  },
+  "contributions_by_developer": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1-score": 0.25,
+    "support": 4,
+    "confused_with": {
+      "number_of_commits": 2,
+      "issue_related_commits": 1
+    }
+  },
+  "repository_topics": {
+    "precision": 0.45454545454545453,
+    "recall": 0.625,
+    "f1-score": 0.5263157894736842,
+    "support": 8,
+    "confused_with": {
+      "issue_related_commits": 2,
+      "number_of_commits": 1
+    }
+  },
+  "last_developer_to_touch_a_file": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "file_creator": 1,
+      "number_of_commits": 1,
+      "list_releases": 1
+    }
+  },
+  "pr_creation_date": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "repository_license": 2,
+      "number_of_branches": 2,
+      "issue_closing_date": 1
+    }
+  },
+  "issue_related_commits": {
+    "precision": 0.16393442622950818,
+    "recall": 1.0,
+    "f1-score": 0.28169014084507044,
+    "support": 10,
+    "confused_with": {}
+  },
+  "most_recent_issues": {
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.4,
+    "support": 6,
+    "confused_with": {
+      "issue_related_commits": 2,
+      "list_releases": 1
+    }
+  },
+  "issue_closer": {
+    "precision": 0.5,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.36363636363636365,
+    "support": 7,
+    "confused_with": {
+      "issue_closing_date": 2,
+      "issue_related_commits": 2
+    }
+  },
+  "number_of_stars": {
+    "precision": 0.5185185185185185,
+    "recall": 1.0,
+    "f1-score": 0.6829268292682926,
+    "support": 14,
+    "confused_with": {}
+  },
+  "file_creator": {
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
+    "support": 9,
+    "confused_with": {
+      "repository_topics": 2,
+      "list_collaborators": 1
+    }
+  },
+  "number_of_watchers": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 7,
+    "confused_with": {
+      "number_of_stars": 1
+    }
+  },
+  "number_of_commits_in_branch": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "issue_related_commits": 3
+    }
+  },
+  "latest_commit": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "number_of_commits": 2,
+      "repository_creation_date": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "issue_creator": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "issue_related_commits": 5,
+      "issue_contributors": 1,
+      "default_branch": 1
+    }
+  },
+  "number_of_subscribers": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 13,
+    "confused_with": {
+      "number_of_stars": 1,
+      "number_of_watchers": 1
+    }
+  },
+  "files_changed_by_pr": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "number_of_commits_in_branch": 2,
+      "repository_license": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "pr_closing_date": {
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.4,
+    "support": 6,
+    "confused_with": {
+      "issue_closing_date": 1,
+      "most_recent_prs": 1
+    }
+  },
+  "number_of_forks": {
+    "precision": 1.0,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.8181818181818181,
+    "support": 13,
+    "confused_with": {
+      "number_of_commits": 2,
+      "activity_report": 1
+    }
+  },
+  "number_of_prs": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "number_of_stars": 2,
+      "number_of_issues": 2,
+      "list_collaborators": 1
+    }
+  },
+  "intial_commit_in_branch": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3,
+    "confused_with": {
+      "list_branches": 1
+    }
+  },
+  "main_programming_language": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "contributions_by_developer": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "largest_files": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "longest_open_pr": 1,
+      "file_creator": 1,
+      "pr_closing_date": 1
+    }
+  },
+  "accuracy": 0.4349112426035503,
+  "macro avg": {
+    "precision": 0.29869269315990626,
+    "recall": 0.3260290457405842,
+    "f1-score": 0.2802543164848183,
+    "support": 338
+  },
+  "weighted avg": {
+    "precision": 0.38911636329669114,
+    "recall": 0.4349112426035503,
+    "f1-score": 0.3742456433049511,
+    "support": 338
+  }
+}

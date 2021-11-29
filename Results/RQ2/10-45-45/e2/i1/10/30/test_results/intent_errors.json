@@ -1,0 +1,1522 @@
+[
+  {
+    "text": "Who is assigned to issue 64",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.26070114970207214
+    }
+  },
+  {
+    "text": "who is supposed to fix issue 62",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.2737048268318176
+    }
+  },
+  {
+    "text": "Who should fix issue 1",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.28587281703948975
+    }
+  },
+  {
+    "text": "who is assigned to the largest number of open issues",
+    "intent": "developers_with_most_open_issues",
+    "intent_prediction": {
+      "name": "number_of_downloads",
+      "confidence": 0.19849593937397003
+    }
+  },
+  {
+    "text": "which developers are overloaded with open issues",
+    "intent": "developers_with_most_open_issues",
+    "intent_prediction": {
+      "name": "number_of_downloads",
+      "confidence": 0.22946451604366302
+    }
+  },
+  {
+    "text": "list the repository releases",
+    "intent": "list_releases",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.18115834891796112
+    }
+  },
+  {
+    "text": "I want a list of repository releases",
+    "intent": "list_releases",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.274676650762558
+    }
+  },
+  {
+    "text": "what are the releases in this repository",
+    "intent": "list_releases",
+    "intent_prediction": {
+      "name": "repository_license",
+      "confidence": 0.18405044078826904
+    }
+  },
+  {
+    "text": "who last commited with file readme.md",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.2907324731349945
+    }
+  },
+  {
+    "text": "for file map.json who was the last to touch it",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.25424936413764954
+    }
+  },
+  {
+    "text": "show me the last person to change actions.java",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.19173724949359894
+    }
+  },
+  {
+    "text": "how many commits are in the documentation branch",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.16806207597255707
+    }
+  },
+  {
+    "text": "commits in branch xywz",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.3169265687465668
+    }
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.17021894454956055
+    }
+  },
+  {
+    "text": "Who is the assignee on the pull request 121",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.16864678263664246
+    }
+  },
+  {
+    "text": "Who should fix pull request 1",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2413235604763031
+    }
+  },
+  {
+    "text": "Who are the assignees on pr 1",
+    "intent": "pr_assignees",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.21192918717861176
+    }
+  },
+  {
+    "text": "How many developers have worked on this repository ?",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_downloads",
+      "confidence": 0.12893015146255493
+    }
+  },
+  {
+    "text": "How many developers have commited to this repo",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.17269690334796906
+    }
+  },
+  {
+    "text": "number of contributers",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.360198438167572
+    }
+  },
+  {
+    "text": "What are the programming languages used in the repo",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.8802103996276855
+    }
+  },
+  {
+    "text": "list the languages",
+    "intent": "list_languages",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.3941905200481415
+    }
+  },
+  {
+    "text": "when was the first commit made in the master branch",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.39727190136909485
+    }
+  },
+  {
+    "text": "How many commits does dev have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_prs",
+      "confidence": 0.1761273294687271
+    }
+  },
+  {
+    "text": "How many commits does George have",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.2016783207654953
+    }
+  },
+  {
+    "text": "How many commits are done by developer X?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.16351555287837982
+    }
+  },
+  {
+    "text": "What are the commits for pr 6744",
+    "intent": "commits_in_pr",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.14909771084785461
+    }
+  },
+  {
+    "text": "What is the biggest file in the repository",
+    "intent": "largest_files",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.2265617400407791
+    }
+  },
+  {
+    "text": "List me the file with the most lines of code",
+    "intent": "largest_files",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.17687132954597473
+    }
+  },
+  {
+    "text": "file with most LOC",
+    "intent": "largest_files",
+    "intent_prediction": {
+      "name": "intial_commit_in_branch",
+      "confidence": 0.19183430075645447
+    }
+  },
+  {
+    "text": "longest file size",
+    "intent": "largest_files",
+    "intent_prediction": {
+      "name": "list_languages",
+      "confidence": 0.23350314795970917
+    }
+  },
+  {
+    "text": "when was the latest release published",
+    "intent": "latest_release",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.23989838361740112
+    }
+  },
+  {
+    "text": "what is the newest code release",
+    "intent": "latest_release",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.1981455683708191
+    }
+  },
+  {
+    "text": "what was our latest release",
+    "intent": "latest_release",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.26551854610443115
+    }
+  },
+  {
+    "text": "when did we last create a new release",
+    "intent": "latest_release",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.22749242186546326
+    }
+  },
+  {
+    "text": "what is the last commit in the clean_tool branch",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.29310446977615356
+    }
+  },
+  {
+    "text": "the last commit to the XvX branch",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.3566676378250122
+    }
+  },
+  {
+    "text": "longest open pr",
+    "intent": "longest_open_pr",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.19139249622821808
+    }
+  },
+  {
+    "text": "Which pull requet has stayed open the longest",
+    "intent": "longest_open_pr",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.1962157040834427
+    }
+  },
+  {
+    "text": "which pr has been open the longest",
+    "intent": "longest_open_pr",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.22874069213867188
+    }
+  },
+  {
+    "text": "which pr has been open for the longest time",
+    "intent": "longest_open_pr",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.22114013135433197
+    }
+  },
+  {
+    "text": "show me the longest open issue",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.1495300680398941
+    }
+  },
+  {
+    "text": "which issue has been open the longest",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "repository_license",
+      "confidence": 0.21199603378772736
+    }
+  },
+  {
+    "text": "which issue has been open for the longest time",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "repository_license",
+      "confidence": 0.23516829311847687
+    }
+  },
+  {
+    "text": "oldest unresolved issues ?",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.15703001618385315
+    }
+  },
+  {
+    "text": "longest open issue",
+    "intent": "longest_open_issue",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.2709052860736847
+    }
+  },
+  {
+    "text": "progress report",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.2788204550743103
+    }
+  },
+  {
+    "text": "repository activity in the last day ?",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.2110508531332016
+    }
+  },
+  {
+    "text": "who authored the 1st commit",
+    "intent": "intial_commit",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4098794162273407
+    }
+  },
+  {
+    "text": "when was the first commit made",
+    "intent": "intial_commit",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.34235864877700806
+    }
+  },
+  {
+    "text": "what is the first commit in the repository",
+    "intent": "intial_commit",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.2561425566673279
+    }
+  },
+  {
+    "text": "How many prs are currently open",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.5762047171592712
+    }
+  },
+  {
+    "text": "what is the number of closed pull requests",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.42656755447387695
+    }
+  },
+  {
+    "text": "count open pull requests",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5825099945068359
+    }
+  },
+  {
+    "text": "number of closed prs",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.22304216027259827
+    }
+  },
+  {
+    "text": "Give me the total number of pulls in the repository",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.19045177102088928
+    }
+  },
+  {
+    "text": "show me the creation date for pr 3",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.404837042093277
+    }
+  },
+  {
+    "text": "What was the date when pull request with number 432 was created",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.2577650845050812
+    }
+  },
+  {
+    "text": "When did pull request 214 open",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.15773284435272217
+    }
+  },
+  {
+    "text": "when did we open pr 4783",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.22999392449855804
+    }
+  },
+  {
+    "text": "creation date of pr 860",
+    "intent": "pr_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.5027347803115845
+    }
+  },
+  {
+    "text": "Give me the total number of issues in the repository",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.31894731521606445
+    }
+  },
+  {
+    "text": "bug report",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "activity_report",
+      "confidence": 0.4157559871673584
+    }
+  },
+  {
+    "text": "Give me the bugs report",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "activity_report",
+      "confidence": 0.24589180946350098
+    }
+  },
+  {
+    "text": "file diff for PR 89",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.13748691976070404
+    }
+  },
+  {
+    "text": "show me a list of changed files in pr 6744",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.2245420515537262
+    }
+  },
+  {
+    "text": "give me a list of files that were changed by pull request 564",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.25923240184783936
+    }
+  },
+  {
+    "text": "file changes by pr 84161",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.169296994805336
+    }
+  },
+  {
+    "text": "In pull request 6744, what files changed",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.20082661509513855
+    }
+  },
+  {
+    "text": "list the changed files in pull request 964",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.24460181593894958
+    }
+  },
+  {
+    "text": "show me the latest issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.2486618161201477
+    }
+  },
+  {
+    "text": "list the recent open issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.5362594127655029
+    }
+  },
+  {
+    "text": "latest issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.2664596438407898
+    }
+  },
+  {
+    "text": "show me the most recent issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.6051251888275146
+    }
+  },
+  {
+    "text": "give me a list of the most recent issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.6287732720375061
+    }
+  },
+  {
+    "text": "give me a list of new issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.4082651436328888
+    }
+  },
+  {
+    "text": "list the top contributors",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.6116041541099548
+    }
+  },
+  {
+    "text": "who are the developers with the most contributions to this repository",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5423335433006287
+    }
+  },
+  {
+    "text": "who is the top contributor",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.6164999604225159
+    }
+  },
+  {
+    "text": "Who committed the most to this repository",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.2697347104549408
+    }
+  },
+  {
+    "text": "who has the most contributions in this repostiory",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "contributions_by_developer",
+      "confidence": 0.2569774389266968
+    }
+  },
+  {
+    "text": "contributors by commits",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4438508450984955
+    }
+  },
+  {
+    "text": "When did pr 214 finally close",
+    "intent": "pr_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.2085985392332077
+    }
+  },
+  {
+    "text": "when did we close pr 4783",
+    "intent": "pr_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.20080439746379852
+    }
+  },
+  {
+    "text": "What was the date when pr 432 was merged",
+    "intent": "pr_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.3776996433734894
+    }
+  },
+  {
+    "text": "issue 546 closing date",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.3562137484550476
+    }
+  },
+  {
+    "text": "When did issue 214 finally close",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.3382954001426697
+    }
+  },
+  {
+    "text": "When was issue 1109 closed",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.36835694313049316
+    }
+  },
+  {
+    "text": "when did we close issue 4783",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.3692658841609955
+    }
+  },
+  {
+    "text": "when was issue 24 closed",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.36720138788223267
+    }
+  },
+  {
+    "text": "What was the date of closing issue 4",
+    "intent": "issue_closing_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.3764372169971466
+    }
+  },
+  {
+    "text": "who is the developer that opened issue 964",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2434593141078949
+    }
+  },
+  {
+    "text": "give me a the developer name who created issue 564",
+    "intent": "issue_creator",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.3752620220184326
+    }
+  },
+  {
+    "text": "who contributed to pr 6744",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5215164422988892
+    }
+  },
+  {
+    "text": "list all the developers who commented on pr 3",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.21948884427547455
+    }
+  },
+  {
+    "text": "contributors to pr 3234",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5656176209449768
+    }
+  },
+  {
+    "text": "pr 774 commenters",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.20436038076877594
+    }
+  },
+  {
+    "text": "show me pr 84161 contributors",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.25406473875045776
+    }
+  },
+  {
+    "text": "show me who contributed to pr 74",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.28852739930152893
+    }
+  },
+  {
+    "text": "pr 13 closer",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.16926489770412445
+    }
+  },
+  {
+    "text": "who merged pr 3234",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.4300817847251892
+    }
+  },
+  {
+    "text": "who closed pr 6744",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.29860344529151917
+    }
+  },
+  {
+    "text": "give me a the developer name who closed pull request 564",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.35685932636260986
+    }
+  },
+  {
+    "text": "give me the user that merged pr 888",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.36385828256607056
+    }
+  },
+  {
+    "text": "who closed pull request 9521",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2137957215309143
+    }
+  },
+  {
+    "text": "I want to know the number of people watching the the repository",
+    "intent": "number_of_watchers",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.32289454340934753
+    }
+  },
+  {
+    "text": "who closed issue 6744",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.31567394733428955
+    }
+  },
+  {
+    "text": "who is the developer that resolved issue 964",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.35528889298439026
+    }
+  },
+  {
+    "text": "give me the user that resolved issue 888",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2932807207107544
+    }
+  },
+  {
+    "text": "give me a the developer name who closed issue 564",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.26662778854370117
+    }
+  },
+  {
+    "text": "show me who closed issue 1235",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.28407564759254456
+    }
+  },
+  {
+    "text": "show me who closed issue 74",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.28407564759254456
+    }
+  },
+  {
+    "text": "closer of issue 3234",
+    "intent": "issue_closer",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.3630357086658478
+    }
+  },
+  {
+    "text": "can you give me the name of the repository owner",
+    "intent": "repository_owner",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.1492554247379303
+    }
+  },
+  {
+    "text": "what is the name of the repository owner?",
+    "intent": "repository_owner",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.19375312328338623
+    }
+  },
+  {
+    "text": "Who is the repository owner",
+    "intent": "repository_owner",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.20010651648044586
+    }
+  },
+  {
+    "text": "I would like to know the person who owns the repository",
+    "intent": "repository_owner",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.23634293675422668
+    }
+  },
+  {
+    "text": "please give the licence we have",
+    "intent": "repository_license",
+    "intent_prediction": {
+      "name": "most_recent_prs",
+      "confidence": 0.16824769973754883
+    }
+  },
+  {
+    "text": "issue 13 contributors",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.17666763067245483
+    }
+  },
+  {
+    "text": "who touched 98",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2878081798553467
+    }
+  },
+  {
+    "text": "show me issue 84161 contributors",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.22521904110908508
+    }
+  },
+  {
+    "text": "who contributed to issue 6744",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.22054272890090942
+    }
+  },
+  {
+    "text": "show me who helped on issue 1235",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.16632802784442902
+    }
+  },
+  {
+    "text": "give me names of all the contributors to issue 123",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4228750467300415
+    }
+  },
+  {
+    "text": "who are the people who commented on issue 9521",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.18749462068080902
+    }
+  },
+  {
+    "text": "give me a list of developers who contributed to issue 564",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.3320719599723816
+    }
+  },
+  {
+    "text": "repository topics",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.20480704307556152
+    }
+  },
+  {
+    "text": "what topics does my repository have?",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.17379571497440338
+    }
+  },
+  {
+    "text": "what topics are there ?",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "latest_commit",
+      "confidence": 0.24914129078388214
+    }
+  },
+  {
+    "text": "I'd like to know the repository topics",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.23588654398918152
+    }
+  },
+  {
+    "text": "To which topics does the repository belong",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.22092841565608978
+    }
+  },
+  {
+    "text": "I would like to know the topics in the repository we have",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.3209589421749115
+    }
+  },
+  {
+    "text": "topics related to the repository?",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.2800232768058777
+    }
+  },
+  {
+    "text": "repository topics that we have?",
+    "intent": "repository_topics",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.23213925957679749
+    }
+  },
+  {
+    "text": "When did this project start?",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.1889195293188095
+    }
+  },
+  {
+    "text": "when was our repo created?",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.4333283305168152
+    }
+  },
+  {
+    "text": "at what time was this repository created",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.14174266159534454
+    }
+  },
+  {
+    "text": "At what time was this project started?",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "latest_commit_in_branch",
+      "confidence": 0.22898901998996735
+    }
+  },
+  {
+    "text": "when did we create the repository",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "repository_license",
+      "confidence": 0.16826044023036957
+    }
+  },
+  {
+    "text": "at what date was the repository created?",
+    "intent": "repository_creation_date",
+    "intent_prediction": {
+      "name": "issue_creation_date",
+      "confidence": 0.24377213418483734
+    }
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "number_of_branches",
+      "confidence": 0.16930440068244934
+    }
+  },
+  {
+    "text": "developer who created constant.txt",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.3275594413280487
+    }
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5046898722648621
+    }
+  },
+  {
+    "text": "which commits mentioned issue 9521",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.17010727524757385
+    }
+  },
+  {
+    "text": "commits related to issue 3234",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.18388909101486206
+    }
+  },
+  {
+    "text": "show me commits linked to this issue 3234?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.19898240268230438
+    }
+  },
+  {
+    "text": "show me commits related to this issue 3234?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.21379026770591736
+    }
+  },
+  {
+    "text": "give me the commits that mentioned issue 888?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "number_of_issues",
+      "confidence": 0.2657345235347748
+    }
+  },
+  {
+    "text": "which commits in the repository are related to issue 84161?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "main_programming_language",
+      "confidence": 0.2450888454914093
+    }
+  },
+  {
+    "text": "give me a list of all the commits where issue 1235 was mentioned",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.1295313984155655
+    }
+  },
+  {
+    "text": "commits linked to issue 3234",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.2695613503456116
+    }
+  },
+  {
+    "text": "what commits are linked to 3234?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.2563925087451935
+    }
+  },
+  {
+    "text": "issue 13 linked commits?",
+    "intent": "issue_related_commits",
+    "intent_prediction": {
+      "name": "commits_in_pr",
+      "confidence": 0.2761729955673218
+    }
+  },
+  {
+    "text": "name all the branches in the repository",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.7577377557754517
+    }
+  },
+  {
+    "text": "I want to know the names of the branches in the repository",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.23907214403152466
+    }
+  },
+  {
+    "text": "what branches do we have in repository",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.23987549543380737
+    }
+  },
+  {
+    "text": "what branches do I have",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.20590277016162872
+    }
+  },
+  {
+    "text": "what branches are available right now?",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.17652536928653717
+    }
+  },
+  {
+    "text": "give me a list of all the branches in the repository",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4925695061683655
+    }
+  },
+  {
+    "text": "what branches do we have?",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.1605890840291977
+    }
+  },
+  {
+    "text": "what are the names of all the branches",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.728662371635437
+    }
+  },
+  {
+    "text": "give me the branches that we have",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.16917464137077332
+    }
+  },
+  {
+    "text": "what are the available branches?",
+    "intent": "list_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.23192426562309265
+    }
+  },
+  {
+    "text": "how many branches in total does the repository have?",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.21675296127796173
+    }
+  },
+  {
+    "text": "please let me know the number of branches in the repo",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.3231787383556366
+    }
+  },
+  {
+    "text": "give the number of branches I have in repository",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.2767624855041504
+    }
+  },
+  {
+    "text": "count for me the number of branches",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.3642633259296417
+    }
+  },
+  {
+    "text": "In this repository, how many branches do I have?",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.12340632826089859
+    }
+  },
+  {
+    "text": "number of branches?",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.1724744737148285
+    }
+  },
+  {
+    "text": "count all the branches for me",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.17288102209568024
+    }
+  },
+  {
+    "text": "how many branches in total?",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.14206258952617645
+    }
+  },
+  {
+    "text": "how many branches do I have",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.1559881567955017
+    }
+  },
+  {
+    "text": "how many branches do we have?",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.15541650354862213
+    }
+  },
+  {
+    "text": "let me know how many branches are in the repository",
+    "intent": "number_of_branches",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.15421952307224274
+    }
+  },
+  {
+    "text": "give me the commit count in my repoisotry",
+    "intent": "number_of_commits",
+    "intent_prediction": {
+      "name": "number_of_subscribers",
+      "confidence": 0.5187059044837952
+    }
+  },
+  {
+    "text": "count all the commits for me",
+    "intent": "number_of_commits",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.24916653335094452
+    }
+  },
+  {
+    "text": "how many stars in the repository?",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2208181768655777
+    }
+  },
+  {
+    "text": "count for me the number of stars",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.29962748289108276
+    }
+  },
+  {
+    "text": "I would like to know how many stars are there in total?",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "number_of_downloads",
+      "confidence": 0.19445054233074188
+    }
+  },
+  {
+    "text": "How many stars?",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2653787434101105
+    }
+  },
+  {
+    "text": "please let me know the number of stars in the repo",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.3196749687194824
+    }
+  },
+  {
+    "text": "give the number of stars I have in repository",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "number_of_forks",
+      "confidence": 0.2635703682899475
+    }
+  },
+  {
+    "text": "what is the number of stars",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.1591666340827942
+    }
+  },
+  {
+    "text": "how many stars",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.2651591897010803
+    }
+  },
+  {
+    "text": "give me the star count in my repoisotry",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "number_of_subscribers",
+      "confidence": 0.3539707362651825
+    }
+  },
+  {
+    "text": "how many stars do we have?",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.1846272498369217
+    }
+  },
+  {
+    "text": "how many stars do I have",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.21291863918304443
+    }
+  },
+  {
+    "text": "count all the stars for me",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.26700350642204285
+    }
+  },
+  {
+    "text": "give me a count of all the stars",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.23775309324264526
+    }
+  },
+  {
+    "text": "how many stars do I have?",
+    "intent": "number_of_stars",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.21291863918304443
+    }
+  }
+]

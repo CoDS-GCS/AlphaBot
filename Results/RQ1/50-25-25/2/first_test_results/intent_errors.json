@@ -1,0 +1,234 @@
+[
+  {
+    "text": "who is supposed to fix issue 62",
+    "intent": "issue_assignees",
+    "intent_prediction": {
+      "name": "issue_closer",
+      "confidence": 0.4548167884349823
+    }
+  },
+  {
+    "text": "how many commits are in branch X",
+    "intent": "number_of_commits_in_branch",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.6299816370010376
+    }
+  },
+  {
+    "text": "who last changed main.py",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "files_changed_by_pr",
+      "confidence": 0.4179138243198395
+    }
+  },
+  {
+    "text": "for file map.json who was the last to touch it",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.943697988986969
+    }
+  },
+  {
+    "text": "how many contributors does this repository have",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.4583500325679779
+    }
+  },
+  {
+    "text": "number of contributers on this repository",
+    "intent": "number_of_collaborators",
+    "intent_prediction": {
+      "name": "number_of_branches",
+      "confidence": 0.4761539697647095
+    }
+  },
+  {
+    "text": "first commit in branch X",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.5123323202133179
+    }
+  },
+  {
+    "text": "the inital commit for branch dev1",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "default_branch",
+      "confidence": 0.3387439250946045
+    }
+  },
+  {
+    "text": "How many commits are done by developer X?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.7117385268211365
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.24052540957927704
+    }
+  },
+  {
+    "text": "pull request 6744 related commits",
+    "intent": "commits_in_pr",
+    "intent_prediction": {
+      "name": "pr_contributors",
+      "confidence": 0.3249405026435852
+    }
+  },
+  {
+    "text": "the latest commit",
+    "intent": "latest_commit",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.685295820236206
+    }
+  },
+  {
+    "text": "the latest commit in the branch master",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit_in_branch",
+      "confidence": 0.46728095412254333
+    }
+  },
+  {
+    "text": "who commited last to the master branch",
+    "intent": "latest_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit_in_branch",
+      "confidence": 0.3926185369491577
+    }
+  },
+  {
+    "text": "what happened yesterday",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "repository_creation_date",
+      "confidence": 0.46279701590538025
+    }
+  },
+  {
+    "text": "number of pull requests",
+    "intent": "number_of_prs",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.3325478136539459
+    }
+  },
+  {
+    "text": "How many bugs are currently open",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "number_of_prs",
+      "confidence": 0.8690306544303894
+    }
+  },
+  {
+    "text": "file diff for PR 89",
+    "intent": "files_changed_by_pr",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.4069530665874481
+    }
+  },
+  {
+    "text": "who contributed the most to this repository",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.8445466160774231
+    }
+  },
+  {
+    "text": "who are the active developers?",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.6332780122756958
+    }
+  },
+  {
+    "text": "latest opened issues",
+    "intent": "most_recent_issues",
+    "intent_prediction": {
+      "name": "file_creator",
+      "confidence": 0.570010244846344
+    }
+  },
+  {
+    "text": "contributors to pr 3234",
+    "intent": "pr_contributors",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.4030396044254303
+    }
+  },
+  {
+    "text": "give me the user that merged pr 888",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.533016562461853
+    }
+  },
+  {
+    "text": "who is the developer that merged pull request 964",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.5794423222541809
+    }
+  },
+  {
+    "text": "what is the main branch in this repository",
+    "intent": "default_branch",
+    "intent_prediction": {
+      "name": "list_branches",
+      "confidence": 0.32303285598754883
+    }
+  },
+  {
+    "text": "give me names of all the commenters on issue 6681",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "number_of_watchers",
+      "confidence": 0.3070957660675049
+    }
+  },
+  {
+    "text": "people that worked on 888",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "number_of_stars",
+      "confidence": 0.5876716375350952
+    }
+  },
+  {
+    "text": "issue 774 commenters",
+    "intent": "issue_contributors",
+    "intent_prediction": {
+      "name": "issue_related_commits",
+      "confidence": 0.7633578777313232
+    }
+  },
+  {
+    "text": "who first added this file domain.yml ?",
+    "intent": "file_creator",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.3542390465736389
+    }
+  }
+]

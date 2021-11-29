@@ -1,0 +1,153 @@
+[
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.6248216451887698,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9988716244697571,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "developer who most recently changed constant.txt",
+    "entities": [
+      {
+        "start": 36,
+        "end": 48,
+        "value": "constant.txt",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 36,
+        "end": 48,
+        "confidence_entity": 0.9908579871488002,
+        "value": "constant.txt",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "last developer to touch server.rb",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9908579878030932,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "please provide a report about closed pull requests in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me who created the file bridge.py",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "bridge.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9908579871453722,
+        "value": "bridge.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer created file main.py?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "main.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.9908579878030932,
+        "value": "main.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who was the creator of this file server.rb?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.9908579871453542,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

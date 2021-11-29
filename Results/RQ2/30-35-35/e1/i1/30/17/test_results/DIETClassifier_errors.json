@@ -1,0 +1,273 @@
+[
+  {
+    "text": "for file map.json who was the last to touch it",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "last developer to touch server.rb",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9360552203029492,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.936054757125161,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9988577365875244,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many prs are currently open",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open issues",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open issues",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9950219392776489,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed pull request 9521",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5348952412605286,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9987407326698303,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a the developer name who closed issue 564",
+    "entities": [
+      {
+        "start": 46,
+        "end": 49,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.567165195941925,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.9986907839775085,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to know who created file map.json",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.936054757125161,
+        "value": "map.json",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who first added this file domain.yml ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "domain.yml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.9360547653107216,
+        "value": "domain.yml",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who was the creator of this file server.rb?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.936054757125161,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9360547571226028,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

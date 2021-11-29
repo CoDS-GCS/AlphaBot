@@ -1,0 +1,246 @@
+[
+  {
+    "text": "who last commited with file readme.md",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.8492475047000672,
+        "value": "readme.md",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me the last person to change actions.java",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.849247478666174,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.849247478666174,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9975460171699524,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the number of closed pull requests",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open pull requests",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed issues",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.8492474786563164,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "developer who created constant.txt",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "constant.txt",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.8493165239781868,
+        "value": "constant.txt",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer started file actions.java?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 41,
+        "confidence_entity": 0.8492488106901478,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file index.js?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "index.js",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.8493165239781868,
+        "value": "index.js",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file readme.md in the repository?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

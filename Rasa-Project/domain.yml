@@ -1,0 +1,185 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- bye
+- affirm
+- deny
+- thank
+- complement
+- insult
+- laugh
+- mood_good
+- mood_bad
+- cant_help
+- ask_isbot
+- what_can_you_do
+- number_of_prs
+- number_of_stars
+- number_of_forks
+- number_of_subscribers
+- number_of_watchers
+- number_of_downloads
+- main_programming_language
+- repository_owner
+- repository_license
+- repository_topics
+- repository_creation_date
+- latest_release
+- list_releases
+- list_languages
+- list_collaborators
+- number_of_collaborators
+- top_contributors
+- contributions_by_developer
+- activity_report
+- number_of_branches
+- default_branch
+- list_branches
+- number_of_commits_in_branch
+- intial_commit_in_branch
+- latest_commit_in_branch
+- command_active_repo
+- command_add_repo
+- command_remove_repo
+- command_switch_repo
+- command_list_repos
+- command_help
+- command_signin
+- command_signout
+- intial_commit
+- latest_commit
+- number_of_commits
+- biggest_file
+- last_developer_to_touch_a_file
+- file_creator
+- developers_with_most_open_issues
+- number_of_issues
+- issue_assignees
+- issue_creation_date
+- issue_closing_date
+- issue_contributors
+- issue_creator
+- issue_closer
+- most_recent_issues
+- longest_open_issue
+- issue_related_commits
+- pr_assignees
+- pr_creation_date
+- pr_closing_date
+- pr_contributors
+- pr_creator
+- pr_closer
+- most_recent_prs
+- longest_open_pr
+- commits_in_pr
+- files_changed_by_pr
+- largest_files
+entities:
+- repository
+- time
+- issue_number
+- issue_status
+- filename
+slots:
+  bug_status:
+    type: categorical
+    influence_conversation: true
+    values:
+    - open
+    - closed
+  repository:
+    type: text
+    influence_conversation: true
+responses:
+  utter_default:
+  - text: Sorry, I didn't get that. Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_handle_insult:
+  - text: I am sorry you feel that way.
+  utter_what_can_you_do:
+  - text: "I can answer questions about your projects liks:\n - How many commits do\
+      \ you have\n - How many open/closed issues are there\n - How created or opened\
+      \ a specific issue or pr\n - Who are the repository contributors?\n - What files\
+      \ were changed by a specific pr"
+actions:
+- parent_action
+- action_number_of_prs
+- action_number_of_commits
+- action_number_of_stars
+- action_number_of_forks
+- action_number_of_branches
+- action_number_of_subscribers
+- action_number_of_watchers
+- action_number_of_downloads
+- action_default_branch
+- action_list_branches
+- action_main_programming_language
+- action_developers_with_most_open_issues
+- action_repository_owner
+- action_repository_license
+- action_repository_topics
+- action_repository_creation_date
+- action_latest_release
+- action_list_releases
+- action_list_languages
+- action_list_collaborators
+- action_number_of_collaborators
+- action_number_of_commits_in_branch
+- action_initial_commit
+- action_initial_commit_in_branch
+- action_latest_commit
+- action_latest_commit_in_branch
+- action_top_contributors
+- action_contributions_by_developer
+- action_activity_report
+- action_command_active_repo
+- action_command_add_repo
+- action_command_remove_repo
+- action_command_switch_repo
+- action_command_list_repos
+- action_command_help
+- action_command_signin
+- action_command_signout
+- action_number_of_issues
+- action_issue_assignees
+- action_issue_creation_date
+- action_issue_closing_date
+- action_issue_contributors
+- action_issue_creator
+- action_issue_closer
+- action_most_recent_issues
+- action_longest_open_issue
+- action_issue_related_commits
+- action_pr_assignees
+- action_pr_creation_date
+- action_pr_closing_date
+- action_pr_contributors
+- action_pr_creator
+- action_pr_closer
+- action_most_recent_prs
+- action_longest_open_pr
+- action_commits_in_pr
+- action_files_changed_by_pr
+- action_last_developer_to_touch_a_file
+- action_file_creator
+- action_largest_files

@@ -1,0 +1,302 @@
+[
+  {
+    "text": "for file map.json who was the last to touch it",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9968774318695068,
+        "value": "map.json",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.7695042878011412,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9905093908309937,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who authored the 1st commit",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.5350341221863544,
+        "value": "1st",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "How many prs are currently open",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.855745792388916,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the number of closed pull requests",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open pull requests",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What was the date when pull request with number 432 was created",
+    "entities": [
+      {
+        "start": 48,
+        "end": 51,
+        "value": "432",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 48,
+        "end": 51,
+        "confidence_entity": 0.9492188692092896,
+        "value": "432",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "number of closed issues",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "In pull request 6744, what files changed",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9426091909408569,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did pr 214 finally close",
+    "entities": [
+      {
+        "start": 12,
+        "end": 15,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.9504859447479248,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What was the date when pr 432 was merged",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "432",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9421047568321228,
+        "value": "432",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did issue 214 finally close",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9514560103416443,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file readme.md in the repository?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me a list of all the commits where issue 1235 was mentioned",
+    "entities": [
+      {
+        "start": 46,
+        "end": 50,
+        "value": "1235",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9502383470535278,
+        "value": "1235",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

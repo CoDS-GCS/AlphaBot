@@ -1,0 +1,189 @@
+[
+  {
+    "text": "I want to have a list of developers with open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.5159294009208679,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the last person to change actions.java",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.983489069822161,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What happened in the last 24 hours",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9210451742760105,
+        "value": "24",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9998039603233337,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please provide a report about closed pull requests in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9210451790591396,
+        "value": "10",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.99982088804245,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me the name of the developer who created file index.html",
+    "entities": [
+      {
+        "start": 51,
+        "end": 61,
+        "value": "index.html",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 51,
+        "end": 61,
+        "confidence_entity": 0.9834890698221579,
+        "value": "index.html",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 29,
+        "confidence_entity": 0.6183899652624045,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer started file actions.java?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 41,
+        "confidence_entity": 0.983489074943633,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who added the file response.java ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 32,
+        "value": "response.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 19,
+        "end": 32,
+        "confidence_entity": 0.983489074943633,
+        "value": "response.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "text": "who last changed main.py",
+    "intent": "last_developer_to_touch_a_file",
+    "intent_prediction": {
+      "name": "largest_files",
+      "confidence": 0.6765313744544983
+    }
+  },
+  {
+    "text": "first commit in branch X",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.7421330809593201
+    }
+  },
+  {
+    "text": "the inital commit for branch dev1",
+    "intent": "intial_commit_in_branch",
+    "intent_prediction": {
+      "name": "intial_commit",
+      "confidence": 0.60224449634552
+    }
+  },
+  {
+    "text": "How many commits are done by developer X?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "number_of_commits",
+      "confidence": 0.6650106906890869
+    }
+  },
+  {
+    "text": "How much did John contribute to the respository ?",
+    "intent": "contributions_by_developer",
+    "intent_prediction": {
+      "name": "top_contributors",
+      "confidence": 0.8111984133720398
+    }
+  },
+  {
+    "text": "what happened yesterday",
+    "intent": "activity_report",
+    "intent_prediction": {
+      "name": "issue_creator",
+      "confidence": 0.30291497707366943
+    }
+  },
+  {
+    "text": "How many bugs are currently open",
+    "intent": "number_of_issues",
+    "intent_prediction": {
+      "name": "number_of_prs",
+      "confidence": 0.4749893546104431
+    }
+  },
+  {
+    "text": "who are the active developers?",
+    "intent": "top_contributors",
+    "intent_prediction": {
+      "name": "list_collaborators",
+      "confidence": 0.5097243785858154
+    }
+  },
+  {
+    "text": "who is the developer that merged pull request 964",
+    "intent": "pr_closer",
+    "intent_prediction": {
+      "name": "pr_creator",
+      "confidence": 0.6508501172065735
+    }
+  }
+]

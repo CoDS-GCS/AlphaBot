@@ -1,0 +1,334 @@
+[
+  {
+    "text": "for file map.json who was the last to touch it",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "last developer to touch server.rb",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9557490071860177,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.8339806514017747,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9993625283241272,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many prs are currently open",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open issues",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "For this repo, show me the the number of open issues",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.8618000657944715,
+        "value": "10",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9995315074920654,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When was issue 1109 closed",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "1109",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.8618009519274372,
+        "value": "1109",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9997753500938416,
+        "value": "1109",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.5928660035133362,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "At what time was issue 2315 closed",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "2315",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.8618000588557517,
+        "value": "2315",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9997449517250061,
+        "value": "2315",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 28,
+        "end": 34,
+        "confidence_entity": 0.5909275412559509,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when was pr 24 closed",
+    "entities": [
+      {
+        "start": 12,
+        "end": 14,
+        "value": "24",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.8618009519274372,
+        "value": "24",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.999774158000946,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.5986530184745789,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to know who created file map.json",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.955748983761612,
+        "value": "map.json",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who first added this file domain.yml ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "domain.yml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.955748983945058,
+        "value": "domain.yml",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who was the creator of this file server.rb?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.955748983761612,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9557489837616009,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,185 @@
+[
+  {
+    "text": "give me a list of developers with the most open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9932510256767273,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the longest open pull request",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9822028875350952,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9974846839904785,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "oldest open issue ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9949135780334473,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What happened in the last 24 hours",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 26,
+        "end": 28,
+        "confidence_entity": 0.9737755656242371,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "please provide a report about closed pull requests in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please provide a report about closed issues in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many bugs are currently open",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "list the recent open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9950666427612305,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me who created the file bridge.py",
+    "entities": [
+      {
+        "start": 29,
+        "end": 38,
+        "value": "bridge.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9754205742698543,
+        "value": "bridge.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9754205742672124,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 31,
+        "confidence_entity": 0.49802149308681876,
+        "value": "pyproject.toml",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

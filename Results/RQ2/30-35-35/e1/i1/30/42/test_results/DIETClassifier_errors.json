@@ -1,0 +1,194 @@
+[
+  {
+    "text": "developers with most open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.7456772327423096,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9776274793579028,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9977657794952393,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the longest open pull request",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.6345111131668091,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open pr",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.6389477252960205,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the recent open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.7011970281600952,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who are the top 10 contributors",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9898214340209961,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed pull request 9521",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5455575585365295,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9947746396064758,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a the developer name who closed issue 564",
+    "entities": [
+      {
+        "start": 46,
+        "end": 49,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.5315724015235901,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.9958394765853882,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who first added this file domain.yml ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 36,
+        "value": "domain.yml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 26,
+        "end": 36,
+        "confidence_entity": 0.9776274795476083,
+        "value": "domain.yml",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.9776274793578851,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

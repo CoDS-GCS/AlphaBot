@@ -1,0 +1,42 @@
+[
+  {
+    "text": "give me a list of developers with the most open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.5853771567344666,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.924915075302124,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

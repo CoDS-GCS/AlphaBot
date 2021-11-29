@@ -1,0 +1,520 @@
+[
+  {
+    "text": "who has the most open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.5898598432540894,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to have a list of developers with open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.7033221125602722,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "last developer to touch server.rb",
+    "entities": [
+      {
+        "start": 24,
+        "end": 33,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.734919875721274,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who was the last developer to change file index.js",
+    "entities": [
+      {
+        "start": 42,
+        "end": 50,
+        "value": "index.js",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.734914914344151,
+        "value": "index.js",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who last changed main.py",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "main.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.735120287435018,
+        "value": "main.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which pr has been open the longest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.5207761526107788,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which pull request was open for the longest amount of time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.5454055666923523,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pull request that has been open for a long time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.5281108617782593,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "issue that has been open for a long time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5421345233917236,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which issue has been open the longest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5434452891349792,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which issue was open for the longest amount of time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.588607907295227,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which issue has been open for the longest time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5489470362663269,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did issue 214 open",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9577759504318237,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.7145954966545105,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we open issue 4783",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "4783",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9580370516277539,
+        "value": "4783",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.6377286911010742,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9876614809036255,
+        "value": "4783",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did pull request 214 open",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.952985942363739,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.6727980971336365,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we open pr 4783",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "4783",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9580370516277539,
+        "value": "4783",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.6076125502586365,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9867223501205444,
+        "value": "4783",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the number of closed issues",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "please provide a report about closed issues in the repo",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "list the recent open pull requests",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.5858158469200134,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created the file index.js?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 29,
+        "value": "index.js",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 21,
+        "end": 29,
+        "confidence_entity": 0.734919875721274,
+        "value": "index.js",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "for file map.json who created it?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want to know who created file map.json",
+    "entities": [
+      {
+        "start": 32,
+        "end": 40,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.7349149144122239,
+        "value": "map.json",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "name the developer who created file users.db",
+    "entities": [
+      {
+        "start": 36,
+        "end": 44,
+        "value": "users.db",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 36,
+        "end": 44,
+        "confidence_entity": 0.7349149172326631,
+        "value": "users.db",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created map.json?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.7431104634303584,
+        "value": "map.json",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who was the creator of this file server.rb?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 42,
+        "value": "server.rb",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 33,
+        "end": 42,
+        "confidence_entity": 0.7349149144122239,
+        "value": "server.rb",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer created file main.py?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 36,
+        "value": "main.py",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.734919875721274,
+        "value": "main.py",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who added the file response.java ?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 32,
+        "value": "response.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 19,
+        "end": 32,
+        "confidence_entity": 0.734919875721274,
+        "value": "response.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "text": "give me a list of developers with the most open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 43,
+        "end": 47,
+        "confidence_entity": 0.9797922372817993,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.5092259049415588,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who created file pyproject.toml in repository",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "pyproject.toml",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what commits are linked to 3234?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 31,
+        "value": "3234",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

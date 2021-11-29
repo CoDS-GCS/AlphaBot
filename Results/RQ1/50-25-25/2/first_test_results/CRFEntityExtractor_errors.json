@@ -1,0 +1,73 @@
+[
+  {
+    "text": "the inital commit for branch dev1",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9968637284308577,
+        "value": "dev1",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "number of closed prs",
+    "entities": [
+      {
+        "start": 10,
+        "end": 16,
+        "value": "closed",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "count open pull requests",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many open issues",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "How many bugs are currently open",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.6931143403053284,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,187 @@
+version: "2.0"
+nlu:
+- intent: issue_assignees
+  examples: |
+    - Who are the assignees on issue [1](issue_number)
+- intent: developers_with_most_open_issues
+  examples: |
+    - which developers are overloaded with open issues
+- intent: list_releases
+  examples: |
+    - can you list the releases we have
+- intent: last_developer_to_touch_a_file
+  examples: |
+    - last developer to touch [server.rb](filename)
+- intent: number_of_commits_in_branch
+  examples: |
+    - count the number of commits in branch TheBranch
+- intent: pr_assignees
+  examples: |
+    - pr [347](issue_number) assignees
+- intent: number_of_collaborators
+  examples: |
+    - number of collaborators
+- intent: list_languages
+  examples: |
+    - What are the top languages in this repostiory ?
+- intent: intial_commit_in_branch
+  examples: |
+    - who has the first commit to the add-ons branch
+- intent: contributions_by_developer
+  examples: |
+    - What is the total number of contributions that Linus has made to this repository
+- intent: commits_in_pr
+  examples: |
+    - pr [13](issue_number) related commits
+- intent: largest_files
+  examples: |
+    - Bigest file in the repository
+- intent: latest_release
+  examples: |
+    - what is the latest release for the repository
+- intent: latest_commit
+  examples: |
+    - who made the last commit
+- intent: latest_commit_in_branch
+  examples: |
+    - can you tell me what the latest commit was in this branch play_tests
+- intent: longest_open_pr
+  examples: |
+    - which pr has been open the longest
+- intent: longest_open_issue
+  examples: |
+    - which issue has been left unresolved for the most amount of time ?
+- intent: activity_report
+  examples: |
+    - give me a report from the last day?
+- intent: issue_creation_date
+  examples: |
+    - What was the date when issue [432](issue_number) was created
+- intent: intial_commit
+  examples: |
+    - the inital commit
+- intent: number_of_prs
+  examples: |
+    - what is the number of [closed](issue_status) pull requests
+- intent: pr_creation_date
+  examples: |
+    - What was the date of creation for pr [4](issue_number)
+- intent: number_of_issues
+  examples: |
+    - bug report
+- intent: most_recent_prs
+  examples: |
+    - show me the newest pull requests in the repository
+- intent: files_changed_by_pr
+  examples: |
+    - what are the file changes introduced by [6744](issue_number)
+- intent: most_recent_issues
+  examples: |
+    - show me the latest issues
+- intent: top_contributors
+  examples: |
+    - who has the highest number of commits
+- intent: pr_closing_date
+  examples: |
+    - When was pull request [1109](issue_number) closed
+- intent: issue_closing_date
+  examples: |
+    - When was issue [1109](issue_number) closed
+- intent: issue_creator
+  examples: |
+    - issue [13](issue_number) creator
+- intent: pr_contributors
+  examples: |
+    - show me pr [84161](issue_number) contributors
+- intent: pr_creator
+  examples: |
+    - show me who created pr [74](issue_number)
+- intent: pr_closer
+  examples: |
+    - show me who closed pull request [1235](issue_number)
+    - who closed pull request [6744](issue_number)
+- intent: issue_closer
+  examples: |
+    - who is responsible for closing issue [44](issue_number)
+- intent: number_of_watchers
+  examples: |
+    - count for me the number of watchers
+    - watchers count?
+- intent: default_branch
+  examples: |
+    - Which branch is considered as default
+- intent: main_programming_language
+  examples: |
+    - Give me the language that is used to program in the repository
+    - which language are we using the most?
+- intent: repository_owner
+  examples: |
+    - tell me the name of the repository owner
+- intent: repository_license
+  examples: |
+    - please give the licence we have
+    - can I know the licences of the repository
+- intent: issue_contributors
+  examples: |
+    - list all the developers who commented on issue [3](issue_number)
+    - issue [774](issue_number) commenters
+- intent: repository_topics
+  examples: |
+    - topics for this repository?
+- intent: repository_creation_date
+  examples: |
+    - at what date was the repository created?
+    - I would like to know the date that we start this project
+- intent: file_creator
+  examples: |
+    - tell me the developer name who created file [gitignore](filename)
+    - name the developer who created file [users.db](filename)
+- intent: issue_related_commits
+  examples: |
+    - list commits that mention issue [84161](issue_number)
+    - commits that mentioned issue [6744](issue_number)
+    - issue [13](issue_number) linked commits?
+- intent: list_branches
+  examples: |
+    - name all the branches in the repository
+    - what are the branches in the repository
+- intent: number_of_branches
+  examples: |
+    - how many branches in the repository?
+    - in this repository what is the total count of branches
+    - give the number of branches I have in repository
+- intent: number_of_commits
+  examples: |
+    - count for me the number of commits
+    - commits count?
+- intent: number_of_stars
+  examples: |
+    - count the repository stars
+    - stars count
+    - provide me with the total number of stars
+- intent: number_of_forks
+  examples: |
+    - what is the number of forks
+    - how many forks do I have?
+    - please let me know the number of forks in the repo
+- intent: number_of_subscribers
+  examples: |
+    - give me the subscriber count in my repoisotry
+    - how many subscribers do I have
+    - give the number of subscribers I have in repository
+- intent: list_collaborators
+  examples: |
+    - list all the collaborators
+    - give me the name of people who worked on this project?
+    - who contributed to my repository?
+- intent: number_of_downloads
+  examples: |
+    - what is the number of downloads
+    - what is the number of downloads that we have?
+    - give me the download count in my repoisotry
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: number
+  examples: |
+    - [0-9]+

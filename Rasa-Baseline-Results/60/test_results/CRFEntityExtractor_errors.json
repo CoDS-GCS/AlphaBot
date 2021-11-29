@@ -1,0 +1,135 @@
+[
+  {
+    "text": "for file map.json who was the last to touch it",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.9953845143318176,
+        "value": "map.json",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "the inital commit for branch dev1",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.9975473120074696,
+        "value": "dev1",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "For this repo, show me the the number of open prs",
+    "entities": [
+      {
+        "start": 41,
+        "end": 45,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.9952824711799622,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many open prs",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9955576062202454,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How many bugs are currently open",
+    "entities": [
+      {
+        "start": 28,
+        "end": 32,
+        "value": "open",
+        "entity": "issue_status"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 28,
+        "end": 32,
+        "confidence_entity": 0.9975956082344055,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who made the 1st commited",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.8600337775651328,
+        "value": "1st",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "for file map.json who created it?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 17,
+        "value": "map.json",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.997639536857605,
+        "value": "map.json",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

@@ -1,0 +1,772 @@
+[
+  {
+    "text": "who is assigned to the largest number of open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.626419723033905,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which developers are overloaded with open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.5669472217559814,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who last commited with file readme.md",
+    "entities": [
+      {
+        "start": 28,
+        "end": 37,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.9131173458040578,
+        "value": "readme.md",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "show me the last person to change actions.java",
+    "entities": [
+      {
+        "start": 34,
+        "end": 46,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 34,
+        "end": 46,
+        "confidence_entity": 0.913117342624312,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "how many commits are in the branch rel-1.3.0?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.7973101842644936,
+        "value": "rel-1.3.0",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 35,
+        "end": 44,
+        "confidence_entity": 0.9971875548362732,
+        "value": "rel-1.3.0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open pr",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.6388779282569885,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which pull requet has stayed open the longest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 29,
+        "end": 33,
+        "confidence_entity": 0.5192753672599792,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which pr has been open the longest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.5096761584281921,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me the longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5595470666885376,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which issue has been open the longest",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5209201574325562,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "which issue has been open for the longest time",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5034957528114319,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "longest open issue",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.6665779948234558,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we open issue 4783",
+    "entities": [
+      {
+        "start": 23,
+        "end": 27,
+        "value": "4783",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9762747501622954,
+        "value": "4783",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.6027592420578003,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9930069446563721,
+        "value": "4783",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did issue 214 open",
+    "entities": [
+      {
+        "start": 15,
+        "end": 18,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.6222726256011393,
+        "value": "214",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9875931143760681,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.7377275228500366,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When did pull request 214 open",
+    "entities": [
+      {
+        "start": 22,
+        "end": 25,
+        "value": "214",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.6222519339616894,
+        "value": "214",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 22,
+        "end": 25,
+        "confidence_entity": 0.9852055907249451,
+        "value": "214",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.7068544626235962,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when did we open pr 4783",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "4783",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9762747501622954,
+        "value": "4783",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.5879407525062561,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9927364587783813,
+        "value": "4783",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the recent open pull requests",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.5951303243637085,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list the recent open issues",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "issue_status",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.6277967095375061,
+        "value": "open",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "When was issue 1109 closed",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "1109",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.6222726256011393,
+        "value": "1109",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9871158003807068,
+        "value": "1109",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 20,
+        "end": 26,
+        "confidence_entity": 0.6371198296546936,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "when was issue 24 closed",
+    "entities": [
+      {
+        "start": 15,
+        "end": 17,
+        "value": "24",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.6222726256011393,
+        "value": "24",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_number",
+        "start": 15,
+        "end": 17,
+        "confidence_entity": 0.9871359467506409,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_status",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.6367807984352112,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed pr 6744",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.976275388873768,
+        "value": "6744",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5414953231811523,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9940284490585327,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed pull request 9521",
+    "entities": [
+      {
+        "start": 24,
+        "end": 28,
+        "value": "9521",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9762747598123915,
+        "value": "9521",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5263296961784363,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.993133544921875,
+        "value": "9521",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who closed issue 6744",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "6744",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.976275388873768,
+        "value": "6744",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.5615136027336121,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9943355917930603,
+        "value": "6744",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me a the developer name who closed issue 564",
+    "entities": [
+      {
+        "start": 46,
+        "end": 49,
+        "value": "564",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.9762747500118725,
+        "value": "564",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.49930331110954285,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 46,
+        "end": 49,
+        "confidence_entity": 0.994746744632721,
+        "value": "564",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me who closed issue 1235",
+    "entities": [
+      {
+        "start": 25,
+        "end": 29,
+        "value": "1235",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.9762747501622954,
+        "value": "1235",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.5333688259124756,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 29,
+        "confidence_entity": 0.9928547739982605,
+        "value": "1235",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me who closed issue 74",
+    "entities": [
+      {
+        "start": 25,
+        "end": 27,
+        "value": "74",
+        "entity": "issue_number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9762747501622954,
+        "value": "74",
+        "extractor": "CRFEntityExtractor"
+      },
+      {
+        "entity": "issue_status",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.5333688259124756,
+        "value": "closed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "issue_number",
+        "start": 25,
+        "end": 27,
+        "confidence_entity": 0.9928547739982605,
+        "value": "74",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would like to know who first created file tf_env_collect.sh?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 61,
+        "value": "tf_env_collect.sh",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 44,
+        "end": 61,
+        "confidence_entity": 0.913117342623563,
+        "value": "tf_env_collect.sh",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "developer who created constant.txt",
+    "entities": [
+      {
+        "start": 22,
+        "end": 34,
+        "value": "constant.txt",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 22,
+        "end": 34,
+        "confidence_entity": 0.9131308397747572,
+        "value": "constant.txt",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "which developer started file actions.java?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 41,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 29,
+        "end": 41,
+        "confidence_entity": 0.9131175498348025,
+        "value": "actions.java",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file index.js?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "index.js",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "filename",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9131308397747572,
+        "value": "index.js",
+        "extractor": "CRFEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "who created file readme.md in the repository?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 26,
+        "value": "readme.md",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "who created file actions.java in my project",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "actions.java",
+        "entity": "filename"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

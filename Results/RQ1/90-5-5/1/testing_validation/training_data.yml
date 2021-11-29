@@ -1,0 +1,63 @@
+version: "2.0"
+nlu:
+- intent: pr_closer
+  examples: |
+    - give me the user that merged pr [888](issue_number)
+- intent: number_of_watchers
+  examples: |
+    - how many watchers
+- intent: main_programming_language
+  examples: |
+    - what programming language is most used?
+- intent: repository_license
+  examples: |
+    - I would like to know the repository license
+- intent: issue_contributors
+  examples: |
+    - who touched [98](issue_number)
+- intent: repository_creation_date
+  examples: |
+    - When did I start the project?
+- intent: file_creator
+  examples: |
+    - who created file [index.js](filename)?
+- intent: list_branches
+  examples: |
+    - what branches do I have
+- intent: number_of_commits
+  examples: |
+    - commits count?
+- intent: issue_related_commits
+  examples: |
+    - list commits that mention issue [84161](issue_number)
+    - give me a list of all the commits where issue [1235](issue_number) was mentioned
+- intent: number_of_branches
+  examples: |
+    - How many branches?
+    - how many branches
+- intent: number_of_stars
+  examples: |
+    - How many stars?
+    - provide me with the total number of stars
+- intent: number_of_forks
+  examples: |
+    - count for me the number of forks
+    - how many forks in total?
+- intent: number_of_subscribers
+  examples: |
+    - give me the subscriber count in my repoisotry
+    - let me know how many subscribers are in the repository
+- intent: list_collaborators
+  examples: |
+    - give me a list of all the collaborators to the repository
+    - who are the collaborators?
+- intent: number_of_downloads
+  examples: |
+    - number of downloads?
+    - let me know how many downloads does the repository have
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: number
+  examples: |
+    - [0-9]+

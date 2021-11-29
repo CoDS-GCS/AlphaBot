@@ -1,0 +1,63 @@
+version: "2.0"
+nlu:
+- intent: pr_closer
+  examples: |
+    - give me a the developer name who closed pull request [564](issue_number)
+- intent: number_of_watchers
+  examples: |
+    - how many watchers in total does the repository have?
+- intent: main_programming_language
+  examples: |
+    - most used programming language
+- intent: repository_license
+  examples: |
+    - What licences do we have?
+- intent: issue_contributors
+  examples: |
+    - who are the contributors to issue [964](issue_number)
+- intent: repository_creation_date
+  examples: |
+    - when was this repository created?
+- intent: file_creator
+  examples: |
+    - who created file [pyproject.toml](filename) in repository
+- intent: list_branches
+  examples: |
+    - name all the branches in the repository
+- intent: number_of_commits
+  examples: |
+    - in this repository what is the total count of commits
+- intent: issue_related_commits
+  examples: |
+    - give me a the commits related to issue [564](issue_number)
+    - show me the related commits to issue [84161](issue_number)
+- intent: number_of_branches
+  examples: |
+    - I want to know the number of branches in the repository
+    - total number of branches?
+- intent: number_of_stars
+  examples: |
+    - number of stars
+    - in this repository what is the total count of stars
+- intent: number_of_forks
+  examples: |
+    - how many forks in total?
+    - how many forks
+- intent: number_of_subscribers
+  examples: |
+    - count all the subscribers for me
+    - how many subscribers in total?
+- intent: list_collaborators
+  examples: |
+    - list who worked on this project
+    - give me all the contributors?
+- intent: number_of_downloads
+  examples: |
+    - I would like to know how many downloads are there in total?
+    - count all the downloads for me
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: number
+  examples: |
+    - [0-9]+

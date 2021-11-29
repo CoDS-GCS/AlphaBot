@@ -1,0 +1,374 @@
+version: "2.0"
+nlu:
+- intent: developers_with_most_open_issues
+  examples: |
+    - which developers are overloaded with open issues
+    - developers with most open issues
+- intent: list_releases
+  examples: |
+    - can you list the releases we have
+    - give me a list of the releases in the repository
+- intent: issue_assignees
+  examples: |
+    - Who is assigned to issue [64](issue_number)
+    - assignee of issue [24](issue_number)
+- intent: last_developer_to_touch_a_file
+  examples: |
+    - who was the last developer to change file [index.js](filename)
+    - developer who most recently changed [constant.txt](filename)
+    - last developer to touch [server.rb](filename)
+- intent: number_of_commits_in_branch
+  examples: |
+    - how many commits are in the branch rel-1.3.0?
+    - count the number of commits in branch TheBranch
+- intent: pr_assignees
+  examples: |
+    - which developers should work on pull request [5](issue_number)
+    - pr [347](issue_number) assignees
+    - Who is assigned to pr [64](issue_number)
+- intent: number_of_collaborators
+  examples: |
+    - number of collaborators
+    - How many collaborators ?
+- intent: contributions_by_developer
+  examples: |
+    - What is the total number of contributions that Linus has made to this repository
+    - How many commits are done by developer X?
+    - How many commits does George have
+- intent: list_languages
+  examples: |
+    - top languages
+    - What is the top language of this repostiroy ?
+    - What are the programming languages used in the repo
+- intent: intial_commit_in_branch
+  examples: |
+    - when was the first commit made in the master branch
+    - who has the first commit in branch xxyx
+    - initial commmit in branch
+- intent: commits_in_pr
+  examples: |
+    - what are the commits in pull request [964](issue_number)
+    - pull request [6744](issue_number) related commits
+    - pr [13](issue_number) related commits
+- intent: largest_files
+  examples: |
+    - What is the biggest file in the repository
+    - longest file size
+    - Bigest file in the repository
+- intent: latest_release
+  examples: |
+    - newest release
+    - when did we last create a new release
+    - last release
+- intent: latest_commit_in_branch
+  examples: |
+    - who made the last commit in master
+    - when was the last commit made in ths branch
+    - can you tell me what the latest commit was in this branch play_tests
+- intent: longest_open_pr
+  examples: |
+    - which pr has been open for the longest time
+    - what is the longest open pull request
+    - which pr has remained unmerged the longest period of time
+- intent: latest_commit
+  examples: |
+    - the latest commit
+    - can you tell me what the latest commit was
+    - the last commit
+- intent: longest_open_issue
+  examples: |
+    - oldest open issue ?
+    - longest open issue
+    - oldest unresolved issues ?
+    - which issue has been open for the longest time
+- intent: activity_report
+  examples: |
+    - give me a report from the last day?
+    - what were the main events from the last day
+    - daily report
+- intent: number_of_prs
+  examples: |
+    - count [open](issue_status) pull requests
+    - I want to know the number of pulls
+    - what is the number of [closed](issue_status) pull requests
+    - Give me the total number of pulls in the repository
+- intent: issue_creation_date
+  examples: |
+    - When was issue [1109](issue_number) opened
+    - when did we open issue [4783](issue_number)
+    - show me the creation date for issue [3](issue_number)
+    - What was the date of creation issue [4](issue_number)
+- intent: intial_commit
+  examples: |
+    - can you tell me what the intial commit was
+    - who has the first commit
+    - who authored the 1st commit
+    - first commit
+- intent: pr_creation_date
+  examples: |
+    - pr [546](issue_number) creation date
+    - When was pull request [1109](issue_number) opened
+    - when was pr [24](issue_number) created
+    - show me the creation date for pr [3](issue_number)
+- intent: number_of_issues
+  examples: |
+    - number of issues
+    - bug report
+    - number of [closed](issue_status) issues
+    - please provide a report about [closed](issue_status) issues in the repo
+- intent: files_changed_by_pr
+  examples: |
+    - file changes by pull request [74](issue_number)
+    - pr [13](issue_number) changed files
+    - list me the files affected by pr number [4](issue_number)
+    - what files has this pr [69](issue_number) touched
+- intent: most_recent_prs
+  examples: |
+    - list recent prs
+    - most recent pull requests
+    - show me the most recent prs
+    - newest prs
+- intent: most_recent_issues
+  examples: |
+    - give me a list of the most recent issues
+    - newest issues
+    - what are the newest issues
+    - latest opened issues
+    - list recent issues
+- intent: top_contributors
+  examples: |
+    - who is the top contributor
+    - who has the highest number of commits
+    - who has the most commits
+    - show me the list of the top contributers
+- intent: issue_closing_date
+  examples: |
+    - issue [546](issue_number) closing date
+    - What was the date when issue [432](issue_number) was resolved
+    - when was issue [24](issue_number) closed
+    - When did issue [214](issue_number) finally close
+    - was issue [24](issue_number) closed ?
+- intent: pr_closing_date
+  examples: |
+    - What was the date when pr [432](issue_number) was merged
+    - At what time was pull request [2315](issue_number) closed
+    - closing date pull request [860](issue_number)
+    - when did we close pr [4783](issue_number)
+    - when was pr [24](issue_number) closed
+- intent: issue_creator
+  examples: |
+    - who opened issue [9521](issue_number)
+    - give me the user that opened issue [888](issue_number)
+    - who opened issue [6744](issue_number)
+    - issue [774](issue_number) opener
+    - show me who opned issue [1235](issue_number)
+- intent: pr_contributors
+  examples: |
+    - who are the people who commented on pr [9521](issue_number)
+    - show me who contributed to pr [74](issue_number)
+    - show me pr [84161](issue_number) contributors
+    - pr [774](issue_number) commenters
+    - who contributed to pr [6744](issue_number)
+- intent: pr_creator
+  examples: |
+    - who is the developer that started pull request [964](issue_number)
+    - who created pull request [9521](issue_number)
+    - who opened pr [6744](issue_number)
+    - pr [774](issue_number) opener
+    - pr [13](issue_number) creator
+- intent: pr_closer
+  examples: |
+    - closer of pull request [3234](issue_number)
+    - merger of pr [9521](issue_number)
+    - pr [774](issue_number) merger
+    - who closed pull request [9521](issue_number)
+    - show me pull request [84161](issue_number) closer
+- intent: issue_closer
+  examples: |
+    - who is the developer that resolved issue [964](issue_number)
+    - who resolved issue [6744](issue_number)
+    - resolver of issue [3234](issue_number)
+    - closer of issue [3234](issue_number)
+    - who closed issue [9521](issue_number)
+- intent: default_branch
+  examples: |
+    - what is the base branch in the repository
+    - give me the name of the default branch in the repository?
+    - what is the default branch
+    - main branch?
+    - what is the default branch here?
+- intent: repository_owner
+  examples: |
+    - which user owns this repository
+    - who has ownership over this repository
+    - can you give me the name of the repository owner
+    - who owns repository?
+    - who owns the repository?
+- intent: number_of_watchers
+  examples: |
+    - I want to know the number of people watching the the repository
+    - How many watchers?
+    - number of watchers
+    - how many watchers
+    - what is the number of watchers
+- intent: main_programming_language
+  examples: |
+    - what programming language is most used?
+    - most used programming language
+    - what is the main language
+    - Give me the language that is used to program in the repository
+    - give me the main programming language
+    - what is the main language in the repository?
+- intent: repository_license
+  examples: |
+    - can I know the licences of the repository
+    - what is the license for the repository ?
+    - give me the legal licence
+    - what is the legal license in this repository?
+    - what licences do I have in the repository?
+- intent: issue_contributors
+  examples: |
+    - issue [13](issue_number) contributors
+    - show me the developers who commented on issue [888](issue_number)
+    - who contributed to issue [6744](issue_number)
+    - who are the people who commented on issue [9521](issue_number)
+    - issue [774](issue_number) commenters
+    - show me who contributed to issue [74](issue_number)
+- intent: repository_topics
+  examples: |
+    - can you give me the topics related to this repository
+    - I would like to know the topics in the repository we have
+    - I'd like to know the repository topics
+    - what topics do we have
+    - what topics are there ?
+    - what are the topics for the repository ?
+    - topics related to the repository?
+- intent: repository_creation_date
+  examples: |
+    - what was our repository created?
+    - When did this project start?
+    - what was the date of creation for the repository?
+    - I want to know th ecreation date of repository
+    - give me the creation date for the repository
+    - give me the repository creation date
+- intent: file_creator
+  examples: |
+    - who first added this file [domain.yml](filename) ?
+    - who created [map.json](filename)?
+    - I would like to know who first created file [tf_env_collect.sh](filename)?
+    - developer who created [constant.txt](filename)
+    - show me who created the file [bridge.py](filename)
+    - who created the file [index.js](filename)?
+    - who created this file [index.js](filename)
+    - who created file [index.js](filename)?
+- intent: issue_related_commits
+  examples: |
+    - show me commits related to this issue [3234](issue_number)?
+    - show me the related commits to issue [84161](issue_number)
+    - issue [13](issue_number) related commits?
+    - give me a the commits related to issue [564](issue_number)
+    - show me commits linked to this issue [3234](issue_number)?
+    - what commits were mentioned issue [74](issue_number)?
+    - which commits in the repository are related to issue [84161](issue_number)?
+- intent: list_branches
+  examples: |
+    - what branches do I have in repository?
+    - Give me a list of the branches
+    - name all the branches
+    - list branches
+    - what branches do we have?
+    - what are the available branches?
+    - name all the branches in the repository
+    - list the names of branches
+- intent: number_of_branches
+  examples: |
+    - count for me the number of branches that I have
+    - please let me know the number of branches in the repo
+    - give me a count of all the branches
+    - branches count?
+    - total number of branches?
+    - branches count
+    - what is the number of branches
+    - let me know how many branches are in the repository
+    - provide me with the total number of branches
+    - how many branches in total?
+- intent: number_of_commits
+  examples: |
+    - give the number of commits I have in repository
+    - number of commits?
+    - please let me know the number of commits in the repo
+    - what is the number of commits
+    - commits count
+    - total number of commits?
+    - number of commits
+    - how many commits do I have
+    - count the repository commits
+    - what is the number of commits that we have?
+- intent: number_of_forks
+  examples: |
+    - what is the number of forks that we have?
+    - in this repository what is the total count of forks
+    - how many forks in the repository?
+    - I would like to know how many forks are there in total?
+    - give the number of forks I have in repository
+    - forks count
+    - number of forks?
+    - count for me the number of forks
+    - how many forks
+    - what is the number of forks
+- intent: number_of_subscribers
+  examples: |
+    - how many subscribers
+    - number of subscribers
+    - how many subscribers in total?
+    - count for me the number of subscribers
+    - count the repository subscribers
+    - count all the subscribers for me
+    - In this repository, how many subscribers do I have?
+    - what is the number of subscribers
+    - total number of subscribers?
+    - count for me the number of subscribers that I have
+- intent: number_of_stars
+  examples: |
+    - how many stars
+    - give me the star count in my repoisotry
+    - how many stars do I have?
+    - number of stars?
+    - how many stars do we have?
+    - how many stars in the repository?
+    - number of stars
+    - How many stars?
+    - stars count
+    - let me know how many stars are in the repository
+- intent: list_collaborators
+  examples: |
+    - Who are the repository collaborators?
+    - list the names of all the contributors?
+    - Who committed in this repository?
+    - please give me the names of the repository collaborators
+    - who contributed to our project?
+    - who collaborated on repository?
+    - give me a list of all the collaborators to the repository
+    - give me all the collaborators?
+    - let me know who contributed to the repository
+    - tell me who worked on the repository
+    - list all the contributors
+- intent: number_of_downloads
+  examples: |
+    - how many downloads for the repository?
+    - provide me with the total number of downloads
+    - how many downloads do I have
+    - give the number of downloads I have in repository
+    - total number of downloads?
+    - I want to know the number of downloads for the repository
+    - downloads count
+    - let me know how many downloads does the repository have
+    - count all the downloads for me
+    - what is the number of downloads
+    - count repository downloads
+- regex: filename
+  examples: |
+    - [^\\ ]*\.(\w+)
+- regex: number
+  examples: |
+    - [0-9]+

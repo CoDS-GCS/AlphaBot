@@ -1,0 +1,233 @@
+command,intent
+I want to have a list of developers with open issues,developers_with_most_open_issues
+who has the most open issues,developers_with_most_open_issues
+developers with most open issues,developers_with_most_open_issues
+list releases,list_releases
+give me a list of the releases in the repository,list_releases
+who was the last developer to change file index.js,last_developer_to_touch_a_file
+last developer to touch server.rb,last_developer_to_touch_a_file
+developer who most recently changed constant.txt,last_developer_to_touch_a_file
+how many commits are in branch X,number_of_commits_in_branch
+which developers should work on pull request 5,pr_assignees
+pr 347 assignees,pr_assignees
+Who is assigned to pr 64,pr_assignees
+number of collaborators,number_of_collaborators
+number of contributers on this repository,number_of_collaborators
+initial commmit in branch,list_branches
+How much did John contribute to the respository ?,contributions_by_developer
+How many contributions does Makram have,contributions_by_developer
+How many commits has Khaled made,contributions_by_developer
+pr 13 related commits,commits_in_pr
+pull request 6744 related commits,commits_in_pr
+show me commits linked to pr 74,commits_in_pr
+show me pull request 84161 related commits,commits_in_pr
+large files,largest_files
+give me the biggest file in the repository,largest_files
+biggest file,largest_files
+Bigest file in the repository,largest_files
+last release,latest_release
+latest release,latest_release
+what is the latest release for the repository,latest_release
+give me the last release for the repository,latest_release
+who made the last commit,latest_commit
+the most recent commit,latest_commit
+what is the last commit in the repository,latest_commit
+the last commit,latest_commit
+can you tell me what the latest commit was in this branch play_tests,latest_commit_in_branch
+who made the last commit in master,latest_commit_in_branch
+last in commit in branch XYZ,latest_commit_in_branch
+when was the last commit made in ths branch,latest_commit_in_branch
+pull request that has been open for a long time,longest_open_pr
+what is the longest open pull request,longest_open_pr
+which pull request was open for the longest amount of time,longest_open_pr
+which pr has remained unmerged the longest period of time,longest_open_pr
+what is the longest open issue,longest_open_issue
+oldest open issue ?,longest_open_issue
+which issue was open for the longest amount of time,longest_open_issue
+which issue has been left unresolved for the most amount of time ?,longest_open_issue
+show me the report for the day,activity_report
+give me a report from the last day?,activity_report
+what were the main events from the last day,activity_report
+What were the recent events in the repository,activity_report
+What happened in the last 24 hours,activity_report
+For this repo, show me the the number of open prs,number_of_prs
+How many open prs,number_of_prs
+At what time was the pull request 2315 opened,pr_creation_date
+What was the date of creation for pr 4,pr_creation_date
+pr 546 creation date,pr_creation_date
+show me the most recent prs,most_recent_prs
+what are the most recent pull requests,most_recent_prs
+give me a list of the most recent prs,most_recent_prs
+most recent pull requests,most_recent_prs
+show me the latest prs,most_recent_prs
+list recent prs,most_recent_prs
+pr 13 changed files,files_changed_by_pr
+what files were changed in pr 6744,files_changed_by_pr
+what files has this pr 69 touched,files_changed_by_pr
+what are the file changes introduced by 6744,files_changed_by_pr
+file changes by pull request 74,files_changed_by_pr
+which developer contributed the most to the repository,top_contributors
+who has the most commits,top_contributors
+show me the list of the top contributers,top_contributors
+who has the highest number of commits,top_contributors
+who contributed the most to this repository,top_contributors
+pull request 546 close date,pr_closing_date
+At what time was pull request 2315 closed,pr_closing_date
+when did we resolve issue 3907,issue_closing_date
+when was issue 674 resolved,issue_closing_date
+show me issue 84161 creator,issue_creator
+show me who opned issue 1235,issue_creator
+who created issue 6744,issue_creator
+who created issue 9521,issue_creator
+creator of issue 3234,issue_creator
+who opened issue 6744,issue_creator
+who are the contributors to pr 964,pr_contributors
+who are the people who commented on pr 9521,pr_contributors
+pr 13 contributors,pr_contributors
+show me the developers who commented on pr 888,pr_contributors
+give me names of all the contributors to pr 123,pr_contributors
+give me names of all the commenters on pr 6681,pr_contributors
+give me a list of developers who contributed to pr 564,pr_contributors
+show me pull request 84161 creator,pr_creator
+who authored pull request 3?,pr_creator
+give me the user that opened pr 888,pr_creator
+who opened pr 9521,pr_creator
+give me a the developer name who created pull request 564,pr_creator
+who created pull request 9521,pr_creator
+count for me the number of watchers,number_of_watchers
+how many people are watching the repository?,number_of_watchers
+watchers count?,number_of_watchers
+how many watchers in total?,number_of_watchers
+How many watchers?,number_of_watchers
+number of watchers?,number_of_watchers
+give me the main programming language,main_programming_language
+Tell me the dominant programming language,main_programming_language
+I'd like to know the main programming language,main_programming_language
+which programming language do we use the most?,main_programming_language
+Main programming language?,main_programming_language
+what is the main language in the repository?,main_programming_language
+I'd like to know the most used programming language,main_programming_language
+let me know which branch is the main one?,default_branch
+which branch is deafualt out of the ones we have?,list_branches
+what is the base branch in the repository,default_branch
+what is the default branch here?,default_branch
+Default branch?,default_branch
+what is the default branch,default_branch
+what is the main branch in this repository,default_branch
+To whom does this repo belong?,repository_owner
+can I know the licences of the repository,repository_license
+what is the legal license in this repository?,repository_license
+give me the legal licence,repository_license
+What licences do we have?,repository_license
+legal license?,repository_license
+I would like to know the repository license,repository_license
+I want to know the licences in our repository,repository_license
+who are the contributors to issue 964,issue_contributors
+show me who contributed to issue 74,issue_contributors
+contributors to issue 3234,issue_contributors
+give me names of all the commenters on issue 6681,issue_contributors
+show me the developers who commented on issue 888,issue_contributors
+issue 774 commenters,issue_contributors
+who worked on 33,issue_contributors
+topics for this repository?,repository_topics
+can you give me the topics related to this repository,repository_topics
+what are the repository topics,repository_topics
+list me all the topics for this repository,repository_topics
+give me the topics for this repository,repository_topics
+what topics do we have in this repository?,repository_topics
+give me the topics that are related to repository,repository_topics
+what are the topics for the repository ?,repository_topics
+what topics are related to our repository?,repository_topics
+who created file pyproject.toml in repository,file_creator
+who created the file index.js?,file_creator
+who added the file response.java ?,file_creator
+which developer created file main.py?,file_creator
+give me the name of the developer who created file index.html,file_creator
+name the developer who created file users.db,file_creator
+who first added this file domain.yml ?,file_creator
+who created this file index.js,file_creator
+who was the creator of this file server.rb?,file_creator
+show me who created the file bridge.py,file_creator
+show me the linked commits to issue 84161,issue_related_commits
+in which commits was issue 964?,issue_related_commits
+list commits that mention issue 84161,issue_related_commits
+what commits are related to 3234?,issue_related_commits
+what commits were mentioned issue 74?,issue_related_commits
+issue 13 related commits?,issue_related_commits
+which commits in the repository are linked to issue 84161?,issue_related_commits
+commits that mentioned issue 6744,issue_related_commits
+give me a the commits linked to issue 564,issue_related_commits
+list branches,list_branches
+list all branches please,list_branches
+I want to know what are the branches in the repository right now,list_branches
+Give me a list of the branches,list_branches
+name all the branches,list_branches
+let me know the names of all branches,list_branches
+list all the branches names,list_branches
+list the names of branches,list_branches
+what are the branches that are in the repository?,list_branches
+what are the branches in the repository,list_branches
+how many branches,number_of_branches
+How many branches?,number_of_branches
+how many branches in the repository?,number_of_branches
+how many branches do I have?,number_of_branches
+how many forks in total does the repository have?,number_of_forks
+I would like to know how many forks are there in total?,number_of_forks
+In this repository, how many forks do I have?,number_of_forks
+let me know how many forks are in the repository,number_of_forks
+how many forks do I have?,number_of_forks
+how many forks in the repository?,number_of_forks
+total number of subscribers?,number_of_subscribers
+how many subscribers in total?,number_of_subscribers
+number of subscribers?,number_of_subscribers
+in this repository what is the total count of subscribers,number_of_subscribers
+subscribers count?,number_of_subscribers
+count for me the number of subscribers,number_of_subscribers
+count for me the number of subscribers that I have,number_of_subscribers
+how many subscribers in total does the repository have?,number_of_subscribers
+give me the subscriber count in my repoisotry,number_of_subscribers
+let me know how many subscribers are in the repository,number_of_subscribers
+give the number of subscribers I have in repository,number_of_subscribers
+count the repository subscribers,number_of_subscribers
+give me a count of all the subscribers,number_of_subscribers
+number of stars,number_of_stars
+stars count?,number_of_stars
+number of stars?,number_of_stars
+how many stars in total does the repository have?,number_of_stars
+provide me with the total number of stars,number_of_stars
+let me know how many stars are in the repository,number_of_stars
+what is the number of stars that we have?,number_of_stars
+total number of stars?,number_of_stars
+in this repository what is the total count of stars,number_of_stars
+count the repository stars,number_of_stars
+I want to know the number of stars in the repository,number_of_stars
+stars count,number_of_stars
+In this repository, how many stars do I have?,number_of_stars
+who are the contributors?,list_collaborators
+list all the collaborators,list_collaborators
+give me a list of all the collaborators to the repository,list_collaborators
+Who are the repository collaborators?,list_collaborators
+who collaborated in the repository?,list_collaborators
+Who committed in this repository?,list_collaborators
+Who are the repository contributors?,list_collaborators
+list the names of all the contributors?,list_collaborators
+list me all the people who helped in this project?,list_collaborators
+let me know who contributed to the repository,list_collaborators
+give me all the collaborators?,list_collaborators
+who worked on this repository?,list_collaborators
+give me all the contributors?,list_collaborators
+who contributed to our project?,list_collaborators
+give the number of downloads I have in repository,number_of_downloads
+how many downloads in total does the repository have?,number_of_downloads
+how many downloads do I have,number_of_downloads
+what is the number of downloads that we have in repository?,number_of_downloads
+number of downloads?,number_of_downloads
+give me the download count in my repoisotry,number_of_downloads
+please let me know the number of downloads in the repo,number_of_downloads
+count the repository downloads,number_of_downloads
+how many downloads for the repository?,number_of_downloads
+How many downloads?,number_of_downloads
+count all the downloads for me,number_of_downloads
+how many downloads in total?,number_of_downloads
+how many downloads do we have?,number_of_downloads
+I want to know the number of downloads for the repository,number_of_downloads
